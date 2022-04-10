@@ -7,7 +7,7 @@ import { AppRoutes, AuthenticationPage, FourOhFourPage } from './pages/routes.js
 import SiteNavigation from './controls/nav/nav.js';
 import './css/all.css';
 
-export default class QuivrWebApp extends React.Component
+export default class DashboardWebApp extends React.Component
 {
     static contextType = DashboardContext;
     static defaultProps = {
@@ -23,7 +23,7 @@ export default class QuivrWebApp extends React.Component
     constructor ( props )
     {
         super( props );
-        this.StoreKeys = QuivrWebApp.defaultProps.StorageKeys;
+        this.StoreKeys = DashboardWebApp.defaultProps.StorageKeys;
 
         this.state = {
             userAuthenticated: false,
@@ -32,7 +32,7 @@ export default class QuivrWebApp extends React.Component
             _previous_uri: window.location.pathname
         };
 
-        document.title = QuivrWebApp.defaultProps.Application;
+        document.title = DashboardWebApp.defaultProps.Application;
         document.getElementsByTagName( "META" )[ 1 ].content = process.env.REACT_APP_NAME;
         document.getElementsByTagName( "META" )[ 2 ].content = process.env.NODE_ENV + '.' + process.env.REACT_APP_BUILD;
         document.getElementsByTagName( "META" )[ 3 ].content = process.env.REACT_APP_SVC_BUILD;

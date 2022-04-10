@@ -37,7 +37,8 @@ The instructions below are for a local development build, and includes the instr
         1. **'curl http://[base-uri:8080]/events'**
 
 ### Deployment
-The project in this repo in set to run locally on a developer's machine and is also configurable to be deployed for use on testing & build type environments.Offline, as part of the QUIVR products deployments moving forward. See instructions in the **'[Build](#build)'** section of this document.
+The project in this repo in set to run locally on a developer's machine and is also configurable to be deployed for use on testing & build type environments.Offline,
+as part of the products deployments moving forward. See instructions in the **'[Build](#build)'** section of this document.
 
 ### Application Architecure Notes
  1. Built using **React 17.x - "create-react-app"** basic template

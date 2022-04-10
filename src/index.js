@@ -1,17 +1,17 @@
 import ReactDOM from 'react-dom';
-import QuivrWebApp  from './App.js';
+import DashboardWebApp  from './App.js';
 
 ( function ()
 {
 	console.clear();
-	const _app_string = QuivrWebApp.defaultProps.Description + ' v:' + QuivrWebApp.defaultProps.BuildNumber;
+	const _app_string = DashboardWebApp.defaultProps.Description + ' v:' + DashboardWebApp.defaultProps.BuildNumber;
 
 	console.log( "BEGIN\t", _app_string, new Date().toISOString() );
 	try
 	{
 		window.document.addEventListener( "DOMContentLoaded", function ( e ) 
 		{
-			ReactDOM.render( <QuivrWebApp/>, document.getElementById("qai-app-root"));
+			ReactDOM.render( <DashboardWebApp/>, document.getElementById("app-root"));
 			return;
 		} );
 	}
