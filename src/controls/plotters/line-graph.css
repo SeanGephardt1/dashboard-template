@@ -1,0 +1,65 @@
+﻿.line-graph-panel
+{
+	/*	border: solid 1px red;*/
+	flex: 1 1 auto;
+	height: 100%;
+	width:100%;
+}
+
+.lg-svg
+{
+	/*	fill: var(--q-blackish);
+	stroke:red;
+	stroke-width: 0px;*/
+	height: 100%;
+	width: 100%;
+}
+.lg-svg-bk-rect
+{
+	/*	fill: var(--q-blackish);
+*/
+	fill: rgba(32,32,32,1);
+	stroke: red;
+	stroke-width: 0px;
+}
+.lg-svg-bk-text
+{
+	fill: none;
+	stroke: rgba(255,255,255,0.8);
+	stroke-width: 0.05ex;
+	font-weight: 100;
+	font-size: 10px;
+}
+.lg-svg-bk-line
+{
+	fill: none;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 0.2px;
+}
+
+.lg-threshold-value-line
+{
+	fill: none;
+	stroke: var(--q-purple-dark);
+	stroke-width: 0.5px;
+}
+
+.lg-data-line
+{
+	fill: none;
+	stroke: var(--q-amber);
+	stroke-width: 1.1px;
+}
+
+.debug-line
+{
+	fill: none;
+	stroke-width: 0.1ex;
+	stroke: rgba(255,255,255,1);
+}
+.debug-circle
+{
+	stroke: black;
+	stroke-width: 0.1ex;
+	fill: var(--q-amber);
+}

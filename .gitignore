@@ -1,0 +1,9 @@
+# production
+
+.vs
+.vs/*
+/.vs
+/.vs/*
+/build
+/deployment*
+/node_modules

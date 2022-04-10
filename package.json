@@ -1,0 +1,71 @@
+{
+    "name": "web-console-2022",
+    "version": "0.7.1",
+    "private": true,
+    "description": "Web Single Page Application (SPA) 2022",
+    "author": "seangephardt@live.com",
+    "contributors":
+    [
+    ],
+    "keywords":
+    [
+        "html",
+        "javascript",
+        "css",
+        "svg",
+        "webgl",
+        "react",
+        "REST API",
+        "Server Sent Events API",
+        "WebSocket API",
+        "SPA",
+        "Single Page App"
+    ],
+    "homepage": "",
+    "license": "Copyright",
+    "main": "index.js",
+    "esnext": "index-esnext.js",
+    "engines":
+    {
+        "node": ">= 6.0.0",
+        "npm": ">= 3.0.0"
+    },
+    "engineStrict": true,
+    "dependencies":
+    {
+        "@babel/core": "^7.15.8",
+        "jspdf": "^2.4.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-router-dom": "^5.2.1",
+        "react-scripts": "^4.0.3"
+    },
+    "scripts":
+    {
+        "build-deploy": "node build-deploy.js",
+        "start-servers": "node dev-servers.js",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "dev": "set PORT=3131&&set HTTPS=false&&set BROWSER=C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe&&react-scripts start ",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig":
+    {
+        "extends": "react-app"
+    },
+    "browserslist":
+    {
+        "production":
+        [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development":
+        [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+.projects-list-layout
+{
+/*	border: solid 1px red;*/
+	background-color:#FFFFFF;
+	display:flex;
+	flex-direction:column;
+	height:calc(100% - 60px);
+	overflow:hidden;
+	padding:0px;
+}

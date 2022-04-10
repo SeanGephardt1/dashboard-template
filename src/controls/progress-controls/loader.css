@@ -1,0 +1,35 @@
+﻿.qai-loading-panel
+{
+/*	border: solid 1px red;*/
+	height:100%;
+	width:100%;
+	flex: 1 1 100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	position:relative;
+}
+.qai-loading-logo
+{
+	padding:4px;
+	transform-origin: 50% 50%;
+	animation-delay:0ms;
+	animation-direction:normal;
+	animation-duration:500ms;
+	animation-fill-mode:forwards;
+	animation-iteration-count:infinite;
+	animation-name: Ani_Loader_ColorCycle;
+	animation-play-state:running;
+	animation-timing-function:ease-in-out;
+}
+.qai-loading-logo > svg
+{
+	height:48px;
+	width:48px;
+}
+.qai-loading-text
+{
+	color: var(--q-purple);
+	letter-spacing:-0.5px;
+}

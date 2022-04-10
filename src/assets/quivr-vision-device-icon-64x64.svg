@@ -1,0 +1,63 @@
+<svg 
+    xmlns="http://www.w3.org/2000/svg"
+    id="QVisionSensorDeviceIcon" 
+    fill="rgba(255,255,255,1)" 
+    width="64"
+    height="64"
+    viewBox="0 0 64 64" >
+ <style>
+    #svg-debug > rect
+    {
+        fill: rgba(255,255,255,1);
+    }
+    #svg-debug > line 
+    {
+      fill: none;
+      stroke: rgba(0,0,0,0.5);
+      stroke-width: 0.2px;
+    }
+
+    polygon#device-icon-background
+    {
+        fill:rgba(242,190,26,1);
+        stroke:rgba(0,0,0,1);
+        stroke-width: 5px;
+    }
+    polygon#device-icon-border
+    {
+        fill:none;
+        stroke:rgba(111,108,255,1);
+        stroke-width: 5px;
+    } 
+  </style>    
+    <g id="svg-debug">
+        <rect id="svg-debug" x="0" y="0" width="64" height="64" />
+        <!-- horizontal lines -->
+        <line x1="0" y1="8" x2="64"  y2="8"  />
+        <line x1="0" y1="16" x2="64"  y2="16"  />
+        <line x1="0" y1="24" x2="64"  y2="24"  />
+        <line x1="0" y1="32" x2="64"  y2="32"  />
+        <line x1="0" y1="40" x2="64"  y2="40"  />
+        <line x1="0" y1="48" x2="64"  y2="48"  />
+        <line x1="0" y1="56" x2="64"  y2="56"  />
+        <!-- vertical lines -->
+        <line x1="8" y1="0" x2="8"  y2="64"  />
+        <line x1="16" y1="0" x2="16"  y2="64" />
+        <line x1="24" y1="0" x2="24"  y2="64"/>
+        <line x1="32" y1="0" x2="32"  y2="64" />
+        <line x1="40" y1="0" x2="40"  y2="64"/>
+        <line x1="48" y1="0" x2="48"  y2="64" />
+        <line x1="56" y1="0" x2="56"  y2="64"/>
+            <g transform="translate(0,9)">
+            <path 
+                opacity="0.2"
+                fill="red" 
+                d="M54 5 C54 5 54 5 52 5 H12 C12 5 12 5 10 5 L5 10 C5 10 5 10 5 10 C5 10 5 12 5 12 V35 C5 35 5 35 5 35 C5 36 5 36 5 36 L10 40 C10 41 12 41 12 41 H51.8309C52.6073 41.4176 53.3561 41.1288 53.9309 40.6069L58.1309 36.8169C58.4509 36.5198 58.7052 36.159 58.8774 35.7577C59.0496 35.3565 59.1359 34.9236 59.1309 34.4869V10.7369C59.1293 10.264 59.0215 9.79739 58.8156 9.37163C58.6096 8.94586 58.3107 8.57175 57.9409 8.2769L53.9009 5.0269Z"/>
+            </g>        
+        </g>
+    <polygon id="device-icon-background" points="10 14, 54 14, 60 20, 60 44, 54 50, 10 50, 4 44, 4 20"/>
+    <polygon id="device-icon-border" points="10 14, 54 14, 60 20, 60 44, 54 50, 10 50, 4 44, 4 20"/>
+    <circle cx="32" cy="32" r="10" fill="black"/>
+    <circle cx="32" cy="32" r="9" fill="rgba(0,64,0,1)"/>
+    <circle cx="32" cy="32" r="8" fill="rgba(0,128,0,1)"/>
+</svg>

@@ -1,0 +1,225 @@
+﻿/* sections */
+nav.qai-nav-bar-open
+{
+/*	border: solid 1px red;*/
+	display: flex;
+	flex: 0 0 150px;
+	width: 150px;
+	flex-direction: column;
+	box-shadow: 4px 0px 10px 0px var(--black-02);
+	z-index:10;
+}
+nav.qai-nav-bar-closed
+{
+/*	border: solid 1px red;*/
+	display: flex;
+	flex: 0 0 65px;
+	width: 65px;
+	flex-direction: column;
+	box-shadow: 4px 0px 10px 0px var(--black-02);
+	z-index:10;
+}
+
+.nav-section  
+{
+	flex: 0 0 auto;
+	display:flex;
+	flex-direction: column;
+	background-color: var(--q-dark-gray);
+}
+.nav-section:nth-child(1)
+{
+	order: 0;
+	flex: 0 1 auto;
+}
+.nav-section:nth-child(2)
+{
+	order: 1;
+	flex: 1 1 auto;
+}
+.nav-section:nth-child(3)
+{
+	order: 2;
+/*	border: solid 1px red;*/
+	padding-bottom: 0px;
+}
+
+/* logo icon style */
+.q-brand
+{
+/*	border: solid 1px red;*/
+	background-color: var(--q-blackish);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:10px;
+	min-height: 60px;
+	cursor: pointer;
+	transition: all 150ms ease-in-out;
+}
+.q-brand:hover
+{
+	background-color:var(--q-blackish-hover);
+}
+
+span.q-brand-text > svg
+{
+/*	background-color:red;*/
+	height:28px;
+	margin-left:6px;
+	margin-top:2px;
+}
+span.q-brand-text-closed > svg
+{
+/*	background-color:blue;*/
+	height:28px;
+	margin-left:6px;
+	margin-top:2px;
+}
+span.q-brand-text > svg > *, span.q-brand-text-closed > svg > *
+{
+	fill: var(--white);
+}
+
+/* pages style*/
+.left-nav, .left-nav:active, .left-nav:link, .left-nav:visited
+{
+	/*	border: solid 1px var(--debug);*/
+	border-left: solid 4px transparent;
+	background-color: transparent;
+	color: rgba(221,221,221,1);
+	min-height:40px;
+	display:flex;
+	flex-direction:row;
+	transition: all 150ms ease-in-out;
+}
+.left-nav:hover, .left-nav:focus
+{
+	background-color: var(--q-blackish);
+	text-decoration:none;
+}
+.left-nav-icon
+{
+/*	border: solid 1px red;*/
+	flex: 0 0 36px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:flex-start;
+	padding-left:20px;
+}
+.left-nav-icon > svg
+{
+	width:20px;
+	height:20px;
+	fill: rgba(221,221,221,1);
+}
+.left-nav-title
+{
+/*	border: solid 1px red;*/
+	display:flex;
+	flex: 1 1 auto;
+	font-size: 13px;
+	vertical-align: top;
+	text-transform: uppercase;
+	text-overflow: ellipsis;
+	word-break:break-word;
+	white-space: pre-line;
+	justify-content:flex-start;
+	align-items:center;
+	padding-left:12px;
+	padding-right:10px;
+}
+
+.left-nav.nav-selected
+{
+	border-left-color: var(--q-blackish);
+	background-color: var(--q-medium-gray);
+	color: rgba(255,255,255,1);
+}
+
+.nav-build-number
+{
+/*	border: solid 1px red;
+*/	text-align:center;
+	padding:4px;
+	color: var(--q-amber);
+	font-size:10px;
+}
+
+
+/* SHELL STYLES */
+/* ADD MEDIA QUERIES */
+form.shell-form
+{
+/*	border: solid 1px red;*/
+	background-color: #727272;
+    color: var(--white);
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-items:center;
+	padding:0px;
+	margin:0px;
+}
+form.shell-form > div
+{
+/*	border: solid 1px var(--white-04);*/
+	display:flex;
+	flex: 1 1 auto;
+	min-height:50px;
+	text-transform:uppercase;
+	justify-content:flex-start;
+	align-items:center;
+}
+form.shell-form > div:nth-child(1)
+{
+	flex: 0 1 auto;
+	margin-left: 10px;
+}
+form.shell-form > div:nth-child(2)
+{ 
+	flex: 1 1 auto;
+	justify-content:center;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+form.shell-form > div:nth-child(3)
+{
+	flex: 0 1 auto;
+}
+
+/* shell controls */
+.shell-account-ctrl
+{
+	border: solid 0px red;
+	min-height:26px;
+	width:auto;
+	font-family: 'RobotoCondensed-Regular', serif, sans-serif, -system-ui;
+	background-color: #4F4F4F;
+	color:rgba(255,255,255,1);
+	text-transform:uppercase;
+	font-size: 11px;
+	cursor:pointer;
+}
+.shell-account-search
+{
+	border: solid 0px red;
+	background-color: #4F4F4F;
+	color:rgba(255,255,255,1);
+	min-height:26px;
+	min-width:200px;
+	margin-right:4px;
+	padding-left:6px;
+	padding-right:6px;
+	font-family: 'RobotoCondensed-Regular', serif, sans-serif, -system-ui;
+	text-transform:uppercase;
+	font-size: 11px;
+}
+.shell-account-search::placeholder
+{
+	background-color: #4F4F4F;
+	color:rgba(255,255,255,0.5);
+	font-style:italic;
+}

@@ -1,0 +1,44 @@
+﻿@keyframes AniPageFadeIn1
+{
+	0%
+	{
+		opacity: 0;
+	}
+	100%
+	{
+		opacity: 1;
+	}
+}
+@keyframes Ani_Loader_ColorCycle
+{
+	0%, 100%
+	{
+		transform: rotate3d(0, 0, 0, 0deg);
+	}
+	50%
+	{
+		transform: rotate3d(0, 1, 0, 180deg);
+	}
+}
+@keyframes AnimateQuivrAiDeviceEye
+{
+	0%, 100%
+	{
+		cx: 16;
+	}
+	50%
+	{
+		cx: 48;
+	}
+}
+@keyframes AnimateQuivrAiSensorLens
+{
+	0%, 100%
+	{
+		transform:scale(1,1);
+	}
+	50%
+	{
+		transform: scale(1.2,1.2);
+	}
+}

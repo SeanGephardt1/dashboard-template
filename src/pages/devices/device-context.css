@@ -1,0 +1,262 @@
+﻿/* TIPS  CONTENT PANEL */
+.q-context-panel
+{
+	border-left: solid 0px var(--black-01);
+	box-shadow:0px 0px 10px 0px var(--black-04);
+	background-color:var(--white);
+	color:var(--black);
+	flex: 0 0 400px;
+	display:flex;
+	flex-direction:column;
+	padding:0;
+	z-index:20;
+}
+
+/* CONTEXT PANEL DETAILS STYLES */
+.details-icon-panel
+{
+	border-bottom: solid 1px rgba(0,0,0,0.05);
+	padding-bottom:20px;
+	margin-bottom:20px;
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:center;
+}
+
+.details-icon-panel > div:first-child
+{
+/*	border: solid 1px red;*/
+	flex: 0 0 64px;
+	margin-right:10px;
+	padding:0px;
+}
+
+.details-icon-panel > div:first-child > svg#QServiceDeviceIcon
+{
+/*	border: solid 1px red;*/
+	width:100%;
+	height:100%;
+	padding:4px;
+}
+.details-icon-panel > div:first-child > svg#QServiceDeviceIcon > rect#svg-debug
+{
+	fill:rgba(255,0,0,0);
+    stroke:rgba(0,0,0,0);
+    stroke-width: 0px;
+}
+.details-icon-panel > div:first-child > svg#QServiceDeviceIcon > polygon#qsd-icon-background
+{
+	fill: rgba(111,108,255,1);
+	stroke: rgba(0,0,0,1);
+	stroke-width: 0px;
+}
+.details-icon-panel > div:first-child > svg#QServiceDeviceIcon > #qsd-icon-border
+{
+	fill: none;
+	stroke: rgba(111,108,255,1);
+	stroke-width: 5px;
+}
+.details-icon-panel > div:first-child > svg#QServiceDeviceIcon > #qsd-service-eye
+{
+	fill: var(--q-blackish);
+	stroke: rgba(0,0,0,1);
+	stroke-width: 0px;
+}
+.details-icon-panel > div:first-child > svg#QServiceDeviceIcon > circle#qsd-circle-shader
+{
+	fill: none;
+	stroke-width: 1px;
+	stroke: rgba(0,128,0,1);
+}
+.details-icon-panel > div:first-child > svg#QServiceDeviceIcon > circle#qsd-circle-fill
+{
+	fill: rgba(0,192,0,1);
+	stroke-width: 0px;
+	stroke: none;
+}
+
+
+.details-icon-panel > div:first-child > svg#QVisionSensorDeviceIcon
+{
+/*	border: solid 1px red;*/
+	width:100%;
+	height:100%;
+	padding:4px;
+}
+.details-icon-panel > div:first-child > svg#QVisionSensorDeviceIcon > #svg-debug
+{
+	fill:rgba(242,190,26,0);
+    stroke:rgba(0,0,0,0);
+    stroke-width: 0px;
+}
+.details-icon-panel > div:first-child > svg#QVisionSensorDeviceIcon > #vsd-icon-background
+{
+	fill:var(--q-blackish);
+    stroke:rgba(0,0,0,0);
+    stroke-width: 0px;
+}
+.details-icon-panel > div:first-child > svg#QVisionSensorDeviceIcon > #vsd-icon-border
+{
+    fill:none;
+    stroke:rgba(111,108,255,1);
+    stroke-width: 5px;
+}
+.details-icon-panel > div:first-child > svg#QVisionSensorDeviceIcon > circle#vsd-circle-shader
+{
+	fill:none;
+	stroke-width:1px;
+	stroke:rgba(0,128,0,1);
+}
+.details-icon-panel > div:first-child > svg#QVisionSensorDeviceIcon > circle#vsd-circle-fill
+{
+	fill:rgba(0,192,0,1);
+	stroke-width:0px;
+	stroke:none;
+}
+
+
+.details-icon-panel > div:last-child
+{
+	flex: 1 1 100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	align-items:center;
+}
+.details-icon-panel > div:last-child > div
+{
+/*	border: solid 1px red;*/
+	width:100%;
+	font-size:14px;
+}
+.details-icon-panel > div:last-child > div:first-child
+{
+/*	border: solid 1px blue;*/
+	width:100%;
+	font-size:14px;
+	margin-bottom:8px;
+}
+.details-icon-panel > div:last-child > div > span:first-child
+{
+	display:inline-block;
+	width:100px;
+	font-weight:600;
+}
+
+
+.details-list-layout
+{
+/*	border: solid 1px var(--black-01);*/
+	flex: 1 1 100%;
+	flex-direction:column;
+/*	height:calc(100%);*/
+/*	overflow:auto;*/
+}
+.details-list-entry
+{
+/*	border: solid 1px var(--black-01);*/
+	flex: 1 1 auto;
+	display:flex;
+	flex-direction:row;
+	margin-bottom:10px;
+	font-size: 14px;
+}
+.details-list-entry > div
+{
+/*	border: solid 1px var(--black-01);*/
+	flex: 0 0 50%;
+}
+.details-list-entry > div:first-child
+{
+	font-weight:900; 
+}
+
+
+/* 
+	CONTEXT PANEL HELP CONTENT STYLES
+	THESE SHOULD BE GLOBAL HTML STYLES
+*/
+.qai-context-tips-header
+{
+	font-size: 20px;
+	margin:20px;
+	margin-bottom:10px;
+	text-transform:uppercase;
+}
+
+.qai-context-tips-content
+{
+	border-top: solid 1px rgba(222,222,222,1);
+	flex: 2 1 auto;
+	overflow:auto;
+	min-height:140px;
+	padding:20px;
+	font-size:14px;
+}
+.qai-context-tips-content-header
+{
+	text-transform:uppercase;
+	padding-top:10px;
+/*	margin-top:30px;*/
+	margin-bottom:10px;
+	font-size: 18px;
+	border-top: solid 1px rgba(222,222,222,1);
+}
+
+.qai-context-tips-content-footer
+{
+	border-top: solid 1px var(--black-02);
+	flex: 0 1 auto;
+	padding:20px;
+	font-size:18px;
+}
+.qai-context-tips-content-footer > :first-child
+{
+	margin-bottom:8px;
+}
+
+.qai-context-preview-panel
+{
+	background-color:lime;
+}
+
+.qai-tips-terms
+{
+	font-size: 14px;
+	margin-bottom:10px;
+	display:flex;
+	flex-direction:row;
+	font-weight:100;
+}
+.qai-tips-terms > :first-child
+{
+	color: #6F6CFF;
+	font-weight:700;
+	padding-right:4px;
+	min-width:150px;
+}
+
+ol.qai-help-list
+{
+	margin-top:16px; 
+	margin-left:16px;
+}
+ol.qai-help-list > li
+{
+	font-weight:700;
+	margin-bottom:10px;
+}
+ol.qai-help-list > li > ol
+{
+	list-style-type:lower-alpha;
+	margin-left: 20px;
+	margin-bottom:20px;
+}
+ol.qai-help-list > li > ol > li
+{
+	list-style-type:lower-alpha;
+	font-weight:100;
+	margin-top:10px;
+	margin-bottom:10px;
+}

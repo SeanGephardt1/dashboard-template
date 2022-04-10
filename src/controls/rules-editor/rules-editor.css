@@ -1,0 +1,104 @@
+﻿.re-panel
+{
+/*	border: solid 1px red;*/
+	max-width:1920px;
+	max-height:1080px;
+/*	flex: 1 1 100%;
+	width: 100%;
+	height: 100%;
+*/
+}
+.re-panel-editor-svg
+{
+/*	box-shadow: 0px 0px 2ex 0px rgba(0, 0, 0, 1);*/
+/*	border: solid 1px rgba(0, 0, 0, 1);*/
+	background-color: rgba(255, 255, 255,1);
+	color: rgba(0,0,0,1);
+	shape-rendering:geometricPrecision;
+	max-height:150%;
+	max-width:150%;
+}
+.re-controls-panel
+{
+	border: solid 0px var(--black-04);
+	background-color: rgba(255, 255, 255,1);
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-items:flex-start;
+	padding-bottom:20px;
+}
+.re-controls-box
+{
+	border: solid 1px var(--black-01);
+	flex: 1 1 auto;
+	display:flex;
+	flex-direction:column;
+	padding:8px;
+}
+.re-controls-box:last-child
+{
+/*	border: solid 1px red;*/
+	flex: 0 0 auto;
+}
+.re-controls-box > *
+{
+/*	border: solid 1px red;*/
+	margin-bottom:10px;
+}
+
+/* SVG SPECIFIC */
+#content-group
+{
+	transition:all 100ms ease-in-out;
+	transform-origin:center center;
+	transform-style:preserve-3d;
+	cursor:grab;
+}
+#content-group-grabbing
+{
+	border: solid 1px var(--black-02);
+	cursor:grabbing;
+}
+
+/* CONTROL STYLES */
+.rule-trigger-area
+{
+	fill:rgba(255, 128, 0, 0.6);
+	stroke: rgba(255, 128, 0, 1);
+	stroke-width: 0.2ex;
+	shape-rendering:geometricPrecision;
+}
+.rule-rect-area
+{
+	fill:rgba(255, 0, 0, 0.6);
+	stroke: rgba(255, 0, 0, 1);
+	stroke-width: 0.2ex;
+	shape-rendering:geometricPrecision;
+}
+.rule-circle-area
+{
+	fill:rgba(0, 255, 0, 0.6);
+	stroke: rgba(0, 255, 0, 1);
+	stroke-width: 0.2ex;
+	shape-rendering:geometricPrecision;
+}
+.rule-poly-area
+{
+	fill:rgba(255, 255, 0, 0.6);
+	stroke: rgba(255, 255, 0, 1);
+	stroke-width: 0.2ex;
+	shape-rendering:geometricPrecision;
+}
+
+
+/* DEBUG styles */
+#debug-group-1.re-debug-group-1 > *
+{
+	fill:rgba(32, 32, 32, 0.5);
+	stroke: rgba(255,255,255,0.5);
+	stroke-width: 0.2ex;
+	shape-rendering:geometricPrecision;
+	opacity: 1;
+}

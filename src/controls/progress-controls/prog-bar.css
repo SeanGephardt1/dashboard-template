@@ -1,0 +1,76 @@
+﻿.prog-bar
+{
+/*	border: solid 1px red;*/
+	min-height:0px;
+	height:6px;
+	width: 100%;
+	text-align:center;
+}
+
+.inner-bar-ani
+{
+/*	border: solid 1px var(--black-01);*/
+	width:0;
+	height:100%;
+
+	animation-delay: 500ms, 1750ms;
+	animation-direction:normal, normal;
+	animation-duration: 1000ms, 250ms;
+	animation-fill-mode: forwards, forwards;
+	animation-iteration-count:1, 1;
+	animation-name: AniProgBar_Fill, AniProgBar_Hide;
+	animation-play-state:running, running;
+	animation-timing-function:linear, linear;
+}
+
+.inner-bar-non-ani
+{
+/*	border: solid 1px var(--black-01);*/
+	width:0;
+	height:100%;
+}
+
+.pb-red
+{
+	background-color: rgba(255,0,0,1);
+}
+.pb-orange
+{
+	background-color: rgba(255, 128, 0, 1);
+}
+.pb-yellow
+{
+	background-color: rgba(255,255,0,1);
+}
+.pb-green
+{
+	background-color: rgba(0,128,0,1);
+}
+.pb-blue
+{
+	background-color: rgba(0,128,255,1);
+}
+.pb-purple
+{
+	background-color: rgba(160,0,160,1);
+}
+
+
+@keyframes AniProgBar_Fill
+{
+	0%
+	{
+		width: 0%;
+	}
+	100%
+	{
+		width: 100%;
+	}
+}
+@keyframes AniProgBar_Hide
+{
+/*	100%
+	{
+		height: 0px;
+	}*/
+}

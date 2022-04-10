@@ -1,0 +1,85 @@
+﻿.score-vu-ctrl
+{
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	background-color: var(--q-blackish);
+	color: var(--white);
+}
+
+.svuc-val-panel
+{
+	/*	border: solid 1px red;*/
+	flex: 0 0 150px;
+	height: calc(150px);
+	width: calc(100px);
+	display: flex;
+	flex-direction: row;
+}
+
+.svuc-numbers
+{
+	/*	border: solid 1px red;*/
+	flex: 0 0 38px;
+	display: flex;
+	flex-direction: column;
+}
+.svuc-numbers > div
+{
+	/*	border: solid 1px white;*/
+	flex: 1 1 auto;
+	text-align: center;
+	padding-top: 4px;
+}
+
+.svuc-vu-panel
+{
+	/*	border: solid 1px red;*/
+	flex: 0 1 100%;
+	padding: 10px;
+	position:relative;
+}
+.svuc-vu-panel-meter-threshold
+{
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	border-bottom: solid 1px var(--q-amber);
+	background-color: rgba(255,255,0,0);
+	height: auto;
+	width: calc(100% - 20px);
+}
+.svuc-vu-panel-meter
+{
+	/*	border: solid 1px white;*/
+	height: 100%;
+	width: auto;
+	background-color: black;
+	background-image: linear-gradient( rgba(255,0,0,0.5),rgba(0,255,0,0.5) );
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.svuc-vu-panel-value
+{
+	/*	border-top: solid 1px white;*/
+	background-image: linear-gradient( rgba(255,0,0,1) 0,rgba(0,255,0,1) 100%);
+	flex: 1 1 auto;
+	height: calc(100%);
+	width: calc(100%);
+/*	transition: all 100ms ease-in-out;*/
+}
+
+.svuc-name-panel
+{
+	/*	border: solid 1px red;*/
+	flex: 0 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 4px;
+	text-transform: uppercase;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}

@@ -1,0 +1,34 @@
+*
+{
+	box-sizing:border-box;
+	vertical-align:top;
+	margin: 0px;
+	padding: 0px;
+}
+html
+{
+	width:100%;
+	height:100%;
+}
+body 
+{
+/*	border: solid 10px red;*/
+	font-family: 'RobotoCondensed-Regular', serif, sans-serif, -system-ui;
+	font-size:small;
+	width:100%;
+	height:100%;
+	overflow: auto;
+}
+a, a:visited
+{
+	text-decoration:none;
+	cursor:pointer;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+hr
+{
+	border-top: solid 0.001ex var(--q-purple);
+}

@@ -1,0 +1,158 @@
+﻿/* RobotoMono -- needs WOFF */
+@font-face
+{
+	font-family: 'RobotoMono-Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoMono-Bold.ttf');
+	font-display: swap;
+}
+@font-face
+{
+	font-family: 'RobotoMono-BoldItalic';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoMono-BoldItalic.ttf');
+	font-display: swap;
+}
+@font-face
+{
+	font-family: 'RobotoMono-ExtraLight';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoMono-ExtraLight.ttf');
+	font-display: swap;
+}
+@font-face
+{
+	font-family: 'RobotoMono-ExtraLightItalic';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoMono-ExtraLightItalic.ttf');
+	font-display: swap;
+}
+@font-face
+{
+	font-family: 'RobotoMono-Italic';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoMono-Italic.ttf');
+	font-display: swap;
+}
+@font-face
+{
+	font-family: 'RobotoMono-Light';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoMono-Light.ttf');
+	font-display: swap;
+}
+@font-face
+{
+	font-family: 'RobotoMono-LightItalic';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoMono-LightItalic.ttf');
+	font-display: swap;
+}
+@font-face
+{
+	font-family: 'RobotoMono-Medium';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoMono-Medium.ttf');
+	font-display: swap;
+}
+@font-face
+{
+	font-family: 'RobotoMono-MediumItalic';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoMono-MediumItalic.ttf');
+	font-display: swap;
+}
+@font-face
+{
+	font-family: 'RobotoMono-Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoMono-Regular.ttf');
+	font-display: swap;
+}
+@font-face
+{
+	font-family: 'RobotoMono-SemiBold';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoMono-SemiBold.ttf') format('ttf');
+	font-display: swap;
+}
+@font-face
+{
+	font-family: 'RobotoMono-SemiBoldItalic';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoMono-SemiBoldItalic.ttf');
+	font-display: swap;
+}
+@font-face
+{
+	font-family: 'RobotoMono-Thin';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoMono-Thin.ttf');
+	font-display: swap;
+}
+@font-face
+{
+	font-family: 'RobotoMono-ThinItalic';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoMono-ThinItalic.ttf');
+	font-display: swap;
+}
+
+/* Roboto Condensed -- needs WOFF */
+@font-face {
+	font-family: 'RobotoCondensed-Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoCondensed-Bold.ttf');
+	font-display: swap;
+}
+@font-face {
+	font-family: 'RobotoCondensed-BoldItalic';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoCondensed-BoldItalic.ttf');
+	font-display: swap;
+}
+@font-face {
+	font-family: 'RobotoCondensed-Italic';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoCondensed-Italic.ttf');
+	font-display: swap;
+}
+@font-face {
+	font-family: 'RobotoCondensed-Light';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoCondensed-Light.ttf');
+	font-display: swap;
+}
+@font-face {
+	font-family: 'RobotoCondensed-LightItalic';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoCondensed-LightItalic.ttf');
+	font-display: swap;
+}
+@font-face
+{
+	font-family: 'RobotoCondensed-Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/RobotoCondensed-Regular.ttf');
+	font-display: swap;
+}

@@ -1,0 +1,1008 @@
+event: GeneralLog
+data: {"log":"[ events ] new event subscriber","timestamp":1631228515413}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"red"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228515514}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228516046"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"red"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228516519}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228517051"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"red"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228517520}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228518094"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"red"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228518519}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228519062"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228519524}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228520020"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228520528}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228521065"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228521526}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228522054"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"red"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228522529}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228523030"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228523534}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228524067"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"red"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228524536}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228525073"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228525536}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228526032"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228526539}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228527074"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228527540}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228528076"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228528546}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228529039"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"red"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228529552}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228530084"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228530558}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228531089"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228531563}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228532057"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"red"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228532570}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228533103"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"red"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228533572}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228534100"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228534582}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228535071"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228535583}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228536116"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"red"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228536593}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228537125"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"red"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228537599}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228538089"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228538607}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228539141"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228539608}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228540138"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"red"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228540608}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228541107"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"red"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228541616}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228542119"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"red"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228542616}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228543151"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228543617}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228544153"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"red"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228544626}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228545159"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228545626}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228546159"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"ControlMap","data":"CONTROLMAP_STRING"}
+
+event: GeneralLog
+data: {"log":"[ device ] a1b2b6d7 got rgb image","timestamp":1631228546636}
+
+event: DeviceTelemetry
+data: {"id":"a1b2b6d7","type":"Preview","data":"/api/devices/a1b2b6d7/live-preview/1631228547155"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"Status","data":"green"}
+
+event: DeviceTelemetry
+data: {"id":"1c168764","type":"ControlMap","data":"control,0,type,1,left,1400,top,212,right,1474,bottom,286,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1\ncontrol,1,type,1,left,331,top,375,right,455,bottom,531,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n"}
+

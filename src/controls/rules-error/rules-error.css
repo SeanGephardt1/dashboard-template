@@ -1,0 +1,58 @@
+﻿.zoom-debug
+{
+	fill:rgba(255,255,255,0);
+	stroke:rgba(255,255,255,0);
+	stroke-width:0.1ex;
+	stroke-miterlimit:10;
+	stroke-linejoin:miter;
+	stroke-linecap:round;
+}
+
+.rules-error-panel
+{
+/*	border: solid 1px red;*/
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+
+.svg-report-image-main
+{
+	background-color: rgba(0,0,0,1);
+	color: rgba(0,0,0,1);
+	height:100%;
+	width:100%;
+}
+.svg-report-g-transform
+{
+	transform-origin: 50% 50%;
+}
+
+.svg-g-viewer
+{
+}
+.svg-g-viewer > line
+{
+	stroke:red;
+	stroke-width: 0.1ex;
+	stroke-dasharray: 1;
+}
+.svg-g-viewer > circle:nth-child(2n+1)
+{
+	fill:red;
+	stroke:none;
+}
+.svg-g-viewer > circle:nth-child(2n+0)
+{
+	fill:none;
+	stroke:red;
+	stroke-width: 0.1ex;
+}
+.svg-g-viewer > rect
+{
+	fill:none;
+	stroke:red;
+	stroke-width: 0.2ex;
+}

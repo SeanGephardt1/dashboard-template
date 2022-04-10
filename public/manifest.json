@@ -1,0 +1,16 @@
+{
+	"short_name": "QUIVR.AI CONSOLE",
+	"name": "QUIVR.AI CONSOLE",
+	"icons":
+	[
+		{
+			"src": "quivr-logo-min-original.svg",
+			"sizes": "512x512 256x256 64x64 32x32 24x24 16x16",
+			"type": "image/x-icon image/svg+xml"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "rgba(111, 108, 255, 1)",
+	"background_color": "rgba(111, 108, 255, 1)"
+}

@@ -1,0 +1,564 @@
+﻿/* AREAS TAB NAV */
+.qai-areas-tabs-panel
+{
+/*	border: solid 1px red;*/
+	flex: 1 1 auto;
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+	align-items:center;
+	margin-left:20px;
+}
+
+.qai-areas-tab-button
+{
+/*	border: solid 1px red;*/
+	background-color:transparent;
+	box-shadow:0px 0px 0px 0px transparent;
+	flex: 0 0 auto;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+	align-items:center;
+	cursor:pointer;
+	padding:0px;
+	margin-right:10px;
+	font-size:24px;
+}
+
+.qai-areas-tab-button > span
+{
+/*	border: solid 1px red;*/
+	flex: 0 0 auto;
+	display:flex;
+    justify-content: flex-start;
+	align-items:center;
+	text-transform:uppercase;
+}
+
+/* SVG ERROR ALERT ICON */
+.qai-areas-tab-button-alert
+{
+/*	border: solid 1px blue;*/
+	margin-right:10px;
+	fill:red;
+	padding:2px;
+	width:24px;
+	height:24px;
+}
+
+/* SVG EDIT NAME ICON & INPUT */
+.qai-zone-name-edit-input
+{
+/*	border: solid 1px red;*/
+	height:32px;
+	padding:5px;
+	font-size:24px;
+	font-family: RobotoCondensed-Regular;
+}
+
+.qai-areas-tab-button-edit-save
+{
+	border: solid 1px var(--white-02);
+	box-shadow:0px 0px 10px 0px var(--black-01);
+	margin-left:10px;
+	fill:var(--white-04);
+	padding:2px;
+	padding-left:4px;
+	padding-right:4px;
+	font-size:13px;
+	height:24px;
+	text-transform:uppercase;
+}
+.qai-areas-tab-button-edit-save > svg
+{
+	width:20px;
+}
+.qai-areas-tab-button-edit-save:hover,
+.qai-areas-tab-button-edit-save:focus
+{
+	background-color:rgba(128, 128, 128,1);
+	border: solid 1px var(--white-06);
+	fill:var(--white);
+}
+
+/* HELP CONTEXT PANEL BUTTON */
+.qai-areas-help-btn-panel
+{
+/*	border: solid 1px red;*/
+	flex: 0 0 200px;
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+	align-items:center;
+	padding-right:10px;
+}
+.qai-areas-tips-btn
+{
+	border: solid 1px transparent;
+	display:flex;
+	border-radius:4px;
+	flex: 0 0 120px;
+	flex-direction:row;
+	justify-items:center;
+	align-items:center;
+	padding:10px;
+	cursor:pointer;
+	color:var(--white);
+	transition: all 200ms ease-in-out;
+}
+.qai-areas-tips-btn > div
+{
+/*	border: solid 1px red;*/
+	flex:0 0 auto;
+	display:flex;
+	justify-items:center;
+	align-items:center;
+}
+.qai-areas-tips-btn:hover
+{
+	background-color: var(--q-blackish);
+}
+.qai-areas-tips-btn > :first-child > svg
+{
+	margin-right:8px;
+}
+
+
+/* MAIN CONTENT LAYOUT */
+.qai-areas-content-panel
+{
+	/*	border: solid 1px red;*/
+	display:flex;
+	flex: 1 1 auto;
+	height:calc(100% - 60px);
+	flex-direction:row;
+	/*	min-width:640px;*/
+	/*	overflow:hidden;*/
+}
+
+
+/* MAIN CONTENT PANEL */
+.qai-area-devices-panel
+{
+/*	border: solid 2px red;*/
+	background-color: var(--white);
+	min-width:320px;
+	flex: 1 1 auto;
+	display:flex;
+	flex-direction:column;
+}
+.qai-area-devices-panel-no-data
+{
+/*	border: solid 1px red;*/
+	color: red;
+	padding:20px;
+	font-size: 16px;
+}
+
+
+/* ICONS TOP PANEL*/
+.qai-area-icons-panel
+{
+/*	border: solid 1px red;*/
+	background-color:var(--q-blackish);
+	padding:20px;
+	padding-bottom:0px;
+	display:flex;
+	flex-direction:row;
+	overflow:auto;
+	overflow-y: hidden;
+/*	height:130px;
+	min-height:110px;
+*/	flex: 0 0 120px;
+}
+
+.qai-zone-icon-btn
+{
+	border: solid 1px transparent;
+	border-radius:4px;
+	flex: 0 0 78px;
+	width:78px;
+	height:108px;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items:center;
+	cursor:pointer;
+	transition: all 150ms ease-in-out;
+}
+.qai-zone-icon-btn:hover,
+.qai-zone-icon-btn:focus,
+.qai-zone-icon-btn-selected
+{
+	background-color:var(--white-01);
+	border: solid 1px #6F6CFF;
+	border-radius:4px;
+}
+.qai-zone-icon-btn-selected > .qai-zone-icon-btn-title
+{
+	font-weight:900;
+}
+
+.qai-zone-icon-btn-img
+{
+/*	border: solid 1px red;*/
+	flex: 0 0  auto;
+	display:flex;
+	flex-direction:row;
+    justify-content: center;
+	align-items:center;
+	padding-top:0px;
+}
+
+.qai-zone-icon-btn-img-col
+{
+/*	border: solid 1px red;*/
+	width:10px;
+	height:auto;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.qai-zone-icon-btn-svg
+{
+/*	border: solid 1px white;*/
+	display:flex;
+	flex-direction:column;
+	justify-content: flex-start;
+	align-items:flex-start;
+}
+
+/* QAI SERVICE ICON MASK FOR MAIN LAYOUT */
+.qai-zone-icon-btn-svg > svg#QServiceDeviceIcon
+{
+/*	border: solid 1px red;*/
+	width: 100%;
+	height: 100%;
+}
+
+.qai-zone-icon-btn-svg > svg#QServiceDeviceIcon > rect#svg-debug
+{
+	fill: rgba(255,255,0,0);
+	stroke: rgba(0,0,0,0);
+	stroke-width: 0px;
+}
+
+.qai-zone-icon-btn-svg > svg#QServiceDeviceIcon > polygon#qsd-icon-background
+{
+	fill: rgba(111,108,255,1);
+	stroke: rgba(0,0,0,1);
+	stroke-width: 0px;
+}
+.qai-zone-icon-btn-svg > svg#QServiceDeviceIcon > polygon#qsd-icon-border
+{
+	fill: none;
+	stroke: rgba(111,108,255,1);
+	stroke-width: 5px;
+}
+.qai-zone-icon-btn-svg > svg#QServiceDeviceIcon > rect#qsd-service-eye
+{
+	fill: var(--q-blackish);
+	stroke: rgba(0,0,0,1);
+	stroke-width: 0px;
+}
+.qai-zone-icon-btn-svg > svg#QServiceDeviceIcon > circle#qsd-circle-shader
+{
+	fill: rgba(64,64,64,1);
+	stroke: rgba(0,0,0,1);
+	stroke-width: 0px;
+}
+.qai-zone-icon-btn-svg > svg#QServiceDeviceIcon > circle#qsd-circle-fill
+{
+	fill: var(--q-green);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 0px;
+}
+.qai-zone-icon-btn-svg > svg#QServiceDeviceIcon > circle#qsd-circle-shader,
+.qai-zone-icon-btn-svg > svg#QServiceDeviceIcon > circle#qsd-circle-fill
+{
+/*	transition: all 500ms ease-in-out;*/
+	transform-origin: center center;
+	transform: translate(0,0);
+	animation-delay: 0ms;
+	animation-direction: normal;
+	animation-duration: 5s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	animation-name: AnimateQuivrAiDeviceEye;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
+}
+
+
+/* QAI SENSOR DEVICE ICON MASK FOR MAIN LAYOUT */
+.qai-zone-icon-btn-svg > svg#QVisionSensorDeviceIcon
+{
+	/*	border: solid 1px red;*/
+	width: 100%;
+	height: 100%;
+}
+.qai-zone-icon-btn-svg > svg#QVisionSensorDeviceIcon > rect#svg-debug
+{
+	fill:rgba(242,190,26,0);
+    stroke:rgba(0,0,0,0);
+    stroke-width: 0px;
+}
+
+.qai-zone-icon-btn-svg > svg#QVisionSensorDeviceIcon > polygon#vsd-icon-background
+{
+	fill:rgba(242,190,26,0);
+    stroke:rgba(0,0,0,1);
+    stroke-width: 0px;
+}
+.qai-zone-icon-btn-svg > svg#QVisionSensorDeviceIcon > polygon#vsd-icon-border
+{
+	fill: none;
+	stroke: rgba(111,108,255,1);
+	stroke-width: 5px;
+}
+.qai-zone-icon-btn-svg > svg#QVisionSensorDeviceIcon > circle#vsd-circle-shader
+{
+	fill: rgba(255,0,0,1);
+	stroke: rgba(0,255,0,0);
+	stroke-width: 0px;
+}
+.qai-zone-icon-btn-svg > svg#QVisionSensorDeviceIcon > circle#vsd-circle-fill
+{
+	fill: rgba(255,0,0,1);
+	stroke: rgba(0,255,0,0);
+	stroke-width: 0px;
+}
+.qai-zone-icon-btn-svg > svg#QVisionSensorDeviceIcon > circle#vsd-circle-shader,
+.qai-zone-icon-btn-svg > svg#QVisionSensorDeviceIcon > circle#vsd-circle-fill
+{
+	transform-origin: center center;
+	transform: translate(0,0);
+	animation-delay: 0;
+	animation-direction: normal;
+	animation-duration: 2s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	animation-name: AnimateQuivrAiSensorLens;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
+}
+
+
+
+.qzibs-green > svg#QVisionSensorDeviceIcon > polygon#vsd-icon-background
+{
+	fill: none;
+}
+.qzibs-green > svg#QVisionSensorDeviceIcon > circle#vsd-circle-shader
+{
+	fill: var(--q-green-dark);
+	stroke: rgba(0,64,0,1);
+	stroke-width: 1px;
+}
+.qzibs-green > svg#QVisionSensorDeviceIcon > circle#vsd-circle-fill
+{
+	fill: var(--q-green);
+	stroke: rgba(0,96,0,1);
+	stroke-width: 1px;
+}
+
+.qzibs-red > svg#QVisionSensorDeviceIcon > polygon#vsd-icon-background
+{
+	fill:var(--q-amber);
+}
+.qzibs-red > svg#QVisionSensorDeviceIcon > circle#vsd-circle-shader
+{
+	fill: var(--q-red-dark);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 0px;
+}
+.qzibs-red > svg#QVisionSensorDeviceIcon > circle#vsd-circle-fill
+{
+	fill: var(--q-red);
+	stroke: rgba(0,160,0,1);
+	stroke-width: 0px;
+}
+
+
+/* SVG CONNECTOR LINES */
+.qai-zone-icon-btn-line
+{
+/*	border: solid 1px red;*/
+	display:flex;
+	flex: 0 0 20px;
+	width:20px;
+    justify-content: center;
+	align-items:center;
+}
+.qai-zone-icon-btn-line > svg
+{
+	margin-left:0px;
+}
+
+.qai-zone-icon-btn-title
+{
+/*	background-color:rgba(255,0,255,0.2);*/
+	flex:0 0 auto;
+	max-width:74px;
+    justify-content: center;
+	align-items:center;
+	text-overflow:ellipsis;
+	white-space:nowrap; 
+	overflow:hidden;
+	font-size:12px;
+	padding:4px;
+	text-transform:uppercase;
+	color:var(--q-light-gray);
+}
+
+.qai-zone-tab-btn-panel
+{
+/*	border: solid 1px red;*/
+	background-color:var(--q-blackish);
+	color: var(--white);
+	flex: 0 0 auto;
+	display:flex;
+	flex-direction:row;
+	min-height:24px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.qai-zone-tab-btn
+{
+/*	border: solid 1px red;*/
+	border-bottom: solid 4px transparent;
+	padding-bottom:4px;
+	margin-right:20px;
+	text-transform:uppercase;
+	font-weight:normal;
+	cursor:pointer;
+	color: var(--q-medium-gray);
+	transition: all 200ms ease-in-out;	
+}
+.qai-zone-tab-btn:hover,
+.qai-zone-tab-btn:focus,
+.qai-zone-tab-btn-selected
+{
+	border-bottom: solid 4px var(--q-purple);
+	color:var(--white);
+	font-weight:bold;
+}
+
+/* TAB DETAILS PANEL */
+/* TABS PANEL  */
+.qai-tabs-layout
+{
+/*	border: solid 10px red;*/
+	flex: 1 1 auto;
+	display:flex;
+	flex-direction:column;
+	height:calc(100%);
+	overflow:auto;
+	background-color: var(--q-gray);
+}
+.qai-tab-content-panel
+{
+/*	border: solid 2px red;*/
+	flex: 1 1 100%;
+	flex-direction:column;
+	overflow:auto;
+}
+
+/* QVISION TAB  */
+.qvision-details-panel
+{
+/*	border: solid 1px red;*/
+	background-color: var(--q-light-gray);
+	flex: 1 1 100%;
+	height: calc(100%);
+	display: flex;
+	flex-direction: column;
+	padding: 0px;
+	overflow:auto;
+}
+
+.details-qvision-live-preview-div
+{
+/*	border: solid 1px red;
+*/	display:flex;
+	flex-direction:column;
+}
+.details-qvision-live-preview-div > .no-image
+{
+	color:red;
+}
+
+.details-qvision-live-preview-div > .device-rules-panel
+{
+/*	border: solid 1px red;*/
+	margin:20px;
+	margin-bottom:0px;
+	box-shadow: 0px 0px 10px 0px var(--q-blackish);
+}
+
+
+/* DEVICE LIST FOR SERVICE */
+.details-header-row
+{
+	/*	border: solid 1px red;*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 20px;
+	margin-bottom: 10px;
+}
+.details-header
+{
+/*	border: solid 1px red;*/
+	flex: 1 0 auto;
+	text-transform: uppercase;
+	font-weight:900;
+	font-size: 14px;
+
+}
+
+.device-refresh-link
+{
+/*	border: solid 1px red;*/
+	flex: 0 1 auto;
+	font-size:14px;
+	color:var(--q-purple-dark);
+	text-align:end;
+	cursor:pointer;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.qvision-devices-list-layout
+{
+/*	border: solid 1px red;*/
+	background-color:var(--white);
+	display:flex;
+	flex: 1 1 auto;
+	flex-direction:column;
+	overflow:auto;
+	margin-left:20px;
+	margin-right:20px;
+}
+.qvision-device-entry
+{
+	border: solid 1px var(--q-light-gray); 
+	cursor:pointer;
+	padding:10px;
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+}
+.qvision-device-entry > span
+{
+	margin-left:10px;
+	font-weight:700;
+}
+.qvision-device-entry:hover
+{
+	background-color:var(--q-purple);
+	color: var(--white);
+}

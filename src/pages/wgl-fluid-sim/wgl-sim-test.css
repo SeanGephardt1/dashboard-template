@@ -1,0 +1,16 @@
+﻿.qai-webgl-container-panel
+{
+/*    border: solid 2px red;*/
+    background-color: white;
+    color: black;
+    padding:0px;
+    margin:0px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex: 1 1 100%;
+    width: calc(100%);
+    height:calc(100% - 60px);
+    overflow:auto;
+}

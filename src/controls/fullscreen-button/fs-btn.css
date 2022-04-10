@@ -1,0 +1,39 @@
+﻿.qai-svg-fs-btn
+{}
+.qai-svg-fs-btn > rect
+{
+	fill: rgba(255,255,255,0.2);
+	cursor:pointer;
+	transition: all 200ms ease-in-out;
+}
+
+.qai-svg-fs-btn:hover > rect
+{
+	fill: rgba(0,0,0,0.2);
+}
+
+.qai-svg-fs-btn > polyline
+{
+	fill: none;
+	stroke:rgba(255,255,255,1);
+	stroke-width:4;
+	cursor:pointer;
+}
+.qai-svg-fs-btn > line
+{
+	fill: rgba(0,0,0,1);
+	stroke:rgba(255,255,255,1);
+	stroke-width:0.5ex;
+}
+
+#debug-group-1 > *
+{
+	fill:rgba(32, 32, 32, 1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 0.1ex;
+}
+#debug-group-1 > text
+{
+	fill:rgba(255, 255, 255, 1);
+	stroke-width: 0px;
+}

@@ -1,0 +1,19 @@
+﻿.qai-webgl-viewer-container
+{
+/*    border: solid 1px red;*/
+    background-color:var(--q-medium-gray);
+	text-align:center;
+    padding:0px;
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    overflow:auto;
+}
+.qai-webgl-viewer-canvas
+{
+/*    border: solid 2px var(--q-purple);
+    background-color:var(--q-medium-gray);*/
+}

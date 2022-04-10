@@ -1,0 +1,101 @@
+﻿.heartbeat-log-panel
+{
+	border: solid 1px var(--black-01);
+/*	border: solid 1px red;*/
+	border-radius: 4px;
+	background-color:white;
+	flex: 1 1 auto;
+	display:flex;
+	flex-direction:column;
+	padding:10px;
+	margin-bottom:10px;
+}
+
+.heartbeat-log-info-panel
+{
+/*	border: solid 1px red;*/
+	flex: 1 1 100%;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-items:center;
+	margin-bottom:8px;
+}
+
+.heartbeat-log-ticker-panel
+{
+/*	border: solid 1px red;*/
+	flex: 1 1 auto;
+	min-height:14px;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-items:flex-start;
+}
+
+.heartbeat-log-box
+{
+/*	border: solid 1px red;
+*/	flex: 1 0 160px;
+	display:flex;
+	font-size:14px;
+}
+.heartbeat-log-box:last-child
+{
+	margin-right:5px;
+}
+.heartbeat-log-box > div:first-child
+{
+	flex: 0 0 auto;
+	padding-right:4px;
+}
+.heartbeat-log-box > div:last-child
+{
+	flex: 1 1 auto;
+	padding-left:4px;
+	font-weight:bold;
+}
+
+.hb_check_block_red
+{
+	background-color:red;
+	color:white;
+	flex: 0 0 24px;
+	height:24px;
+	width: 24px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:10px;
+	font-weight:normal;
+}
+.hb_check_block_green
+{
+	background-color:rgba(0,128,0,1);
+	color:white;
+	flex: 0 0 24px;
+	height:24px;
+	width: 24px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:10px;
+	font-weight:normal;
+}
+
+.heartbeat-log-info-panel > .heartbeat-log-box:nth-child(2)
+{
+	margin-left:10px;
+}
+
+.heartbeat-log-ticker-panel > .hb_check_block_red,
+.heartbeat-log-ticker-panel > .hb_check_block_green
+{
+	flex: 0 0 12px;
+	width:12px;
+	height:12px;
+	margin-right:1px;
+	margin-bottom:1px;
+}

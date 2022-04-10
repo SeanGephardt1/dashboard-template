@@ -1,0 +1,183 @@
+                        // CONTROLS
+                        //_found.live.controlMap.controls = [];
+                        //for ( let i = 0; i < 7; i++ )
+                        //{
+                        //    let _x = (1920 / 7 ) - 175 + ( i * 250 );
+                        //    let _y = 440;
+                        //    let _w = 200;
+                        //    let _h = 200;
+
+                        //    const _new_controls = {
+                        //        index: i,
+                        //        value: 1,
+                        //        baseline: _found.live.preview,
+                        //        threshold: 0.8,
+                        //        activated: true,
+                        //        rect: [ _x, _y, _w, _h ]
+                        //    };
+                        //    _found.live.controlMap.controls.push( _new_controls );
+                        //}
+
+
+                    //data[ i ].live.controlMap = {};
+                    //data[ i ].live.controlMap.controls = [];
+                    //for (let c = 0; c < 6; c++)
+                    //{
+                    //    let _x = ( 1920 / 7 ) + ( c * 250 );
+                    //    let _y = 440;
+                    //    let _w = 200;
+                    //    let _h = 200;
+                    //    let _rect = [ _x, _y, _w, _h ];
+  
+                    //    let _control = {
+                    //        index: c,
+                    //        name: 'control ' + c,
+                    //        rect: _rect,
+                    //        activated: 'green'
+                    //    };
+
+                    //    data[ i ].live.controlMap.controls.push(_control);
+                    //}
+                    //  console.debug('data[ i ].live.controlMap', data[ i ].live.controlMap);
+
+
+"control,0,type,1,left,440,top,480,right,520,bottom,560,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1
+control,1,type,1,left,920,top,540,right,1000,bottom,620,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0"
+
+
+"control,0,type,1,left,440,top,480,right,520,bottom,560,age,0,threshold,0.65,score,0,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,1,link,1
+control,1,type,1,left,920,top,540,right,1000,bottom,620,age,0,threshold,0.65,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0"
+
+
+
+
+    async _OLD_Fetch_DevicesListData()
+    {
+        console.debug( "Fetch_DevicesListData()" );
+
+        // GET SERVICE INFO
+        //await fetch( this._get_service_info_uri, this._get_devices_options )
+        //    .then( response => response.json() )
+        //    .then( data =>
+        //    {   //  console.debug( "FETCH QAI SERVICE INFO", data );
+        //        data.vision_devices = [];
+        //        this.ZoneData = data;
+
+        //        this.setState( {
+        //            isDirty: !this.state.isDirty,
+        //            isLoading:false
+        //        } );
+        //    } )
+        //    .catch( ( error ) =>
+        //    {
+        //        console.error( "There is an error when starting the QUIVR.AI Get Devices call.", error );
+        //        return;
+        //    } );
+
+        ////  FETCH START DISCOVERY
+        //await fetch( this._discovery_start_uri, this._post_options )
+        //    .then( response =>
+        //    {   //  console.debug( "START-DISCOVERY.RESPONSE", response );
+        //        if ( response.status !== 200 )
+        //        {
+        //            throw new Error( "The QUIVR.AI Start Discovery call returned a status of " + response.status );
+        //        }
+        //        else if ( response.ok !== true )
+        //        {
+        //            throw new Error( "The QUIVR.AI Start Discovery call returned an 'ok' status of " + response.ok );
+        //        }
+        //        return;
+        //    } )
+        //    .catch( ( error ) =>
+        //    {
+        //        console.error( "There is an error when starting the QUIVR.AI Device Discovery process.", error );
+        //        return;
+        //    } );
+
+        //////  FETCH UNMANGED DEVICES LIST FROM API
+        //await fetch( this._get_network_devices_url, this._get_devices_options )
+        //    .then( response => response.json() )
+        //    .then( data =>
+        //    {   //  console.debug( "FETCH.DEVICES", data );
+        //        this.VisionDevicesData = data;                    
+        //        this.setState( { isLoading: false } );
+        //    } )
+        //    .catch( ( error ) =>
+        //    {
+        //        console.error( "There is an error when starting the QUIVR.AI Get Devices call.", error );
+        //        return;
+        //    } );
+
+        //////  FETCH & MERGE MANAGED DEVICES LIST FROM API
+        //await fetch( this._get_managed_devices_url, this._get_devices_options )
+        //    .then( response => response.json() )
+        //    .then( data =>
+        //    {   //  console.debug( "FETCH MANAGED.DEVICES", data );
+        //        this.ZoneData.vision_devices = data;
+
+        //        for ( let i = 0; i < data.length; i++ )
+        //        {
+        //            //  console.debug( "managed devices data", data[ i ].id );
+        //            for ( let vd = 0; vd < this.VisionDevicesData.length; vd++ )
+        //            {
+        //                //  console.debug( i, data[ i ].id, "::", vd, this.VisionDevicesData[ vd ].id );
+        //                if ( data[ i ].id === this.VisionDevicesData[ vd ].id )
+        //                {
+        //                    this.VisionDevicesData[ vd ].isChecked = true;
+        //                }
+        //            }
+        //        }
+
+        //        this.setState( {
+        //            isDirty: !this.state.isDirty,
+        //        } );
+        //    } )
+        //    .catch( ( error ) =>
+        //    {
+        //        console.error( "There is an error when starting the QUIVR.AI Get Devices call.", error );
+        //        return;
+        //    } );
+
+        ////// STOP DEVICE DISCOVERY
+        //await fetch( this._discovery_stop_uri, this._post_options )
+        //    .then( response =>
+        //    {   //  console.debug( "STOP-DISCOVERY.RESPONSE", response );
+        //        if ( response.status !== 200 )
+        //        {
+        //            throw new Error( "The QUIVR.AI Stop Discovery call returned a status of " + response.status );
+        //        }
+        //        else if ( response.ok !== true )
+        //        {
+        //            throw new Error( "The QUIVR.AI Stop Discovery call returned an 'ok' status of " + response.ok );
+        //        }
+        //        return;
+        //    } )
+        //    .catch( ( error ) =>
+        //    {
+        //        console.error( "There is an error when stopping the QUIVR.AI Device Discovery process.", error );
+        //        return;
+        //    } );
+
+        ////  START PAIRING EXISTING DEVICES
+        //if ( this.ZoneData.vision_devices !== undefined )
+        //{
+        //    if ( this.ZoneData.vision_devices.length > 0 )
+        //    {
+        //        for ( let i = 0; i < this.ZoneData.vision_devices.length; i++ )
+        //        {   //  console.debug( "PAIRING", i, this.ZoneData.vision_devices[ i ] );
+        //            let _url = this._post_pair_managed_devices_url + this.ZoneData.vision_devices[ i ].id;
+
+        //            await fetch( _url, this._post_options )
+        //                .then( response => response.text() )
+        //                .catch( ( error ) =>
+        //                {
+        //                    console.error( "There is an error when starting the QUIVR.AI Get Devices call.", error );
+        //                    return;
+        //                } );
+        //        }
+        //    }
+        //}
+
+
+        return;
+    };

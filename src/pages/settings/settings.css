@@ -1,0 +1,26 @@
+﻿.qai-row > div:nth-child(2) > input
+{
+	border: solid 1px rgba(224,224,224,1);
+	font-size:12px;
+	font-family: 'RobotoCondensed-Regular', serif, sans-serif, -system-ui;
+	max-width:50%;
+	width:50%;
+	padding:4px;
+}
+.qai-row > div:nth-child(2) > input:focus
+{
+	box-shadow:0 0 10px 0 rgba(0,0,0,0.1);
+}
+.edit-mode-label-input
+{
+	padding-right:12px;
+	cursor:pointer;
+}
+.edit-mode-label-input > span
+{
+	padding-left:4px;
+}
+.edit-mode-label-input:nth-child(1)
+{
+	margin-right:10px;
+}

@@ -1,0 +1,49 @@
+﻿.heartbeat-chart-data
+{
+/*	border: solid 1px red;*/
+	flex: 1 1 auto;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-items:center;
+}
+.day-chart-square
+{
+	border: solid 1px transparent;
+	background-color: var(--black-01);
+	color:black;
+	height:16px;
+	width:16px;
+	margin-top:2px;
+	margin-left:0px;
+	margin-right:3px;
+	margin-bottom:2px;
+	cursor:default;
+}
+.day-chart-square:first-child
+{
+	margin-left:0px;
+}
+
+.dcs-green, .dcs-red
+{
+	opacity:0.5;
+	transition: all 100ms ease-in-out;
+	cursor:pointer;
+}
+.dcs-green
+{
+	border: solid 1px rgba(0,160,0,1);
+	background-color: rgba(0,160,0,1);
+}
+.dcs-red
+{
+	border: solid 1px rgba(160,0,0,1);
+	background-color: rgba(160,0,0,1);
+}
+.dcs-green:hover, .dcs-red:hover,
+.dcs-green:focus, .dcs-red:focus
+{
+	opacity:1;
+}

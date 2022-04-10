@@ -1,0 +1,152 @@
+﻿.pi-panel
+{
+/*	border: solid 1px var(--black-01);*/
+	height:auto;
+	width:100%;
+	text-align:center;
+	vertical-align:top;
+	display: flex;
+	justify-content:center;
+}
+
+/* sizes*/
+.pi-size-extra-large
+{
+	height:192px;
+	width:192px;
+}
+.pi-size-large
+{
+	height:128px;
+	width:128px;
+}
+.pi-size-medium
+{
+	height:64px;
+	width:64px;
+}
+.pi-size-small
+{
+	height:32px;
+	width:32px;
+}
+
+/* styles */
+.pi-circle
+{
+/*	border: solid 1px red; */	
+	border-radius:50%; 
+	opacity:0;	
+	transform: rotate(0);
+	animation-delay: 300ms, 1000ms;
+	animation-direction:normal, normal;
+	animation-duration:1000ms, 300ms;
+	animation-fill-mode:both, forwards;
+	animation-iteration-count: infinite, 1;
+	animation-name:RotateProgressCircle, AniPageFadeIn1;
+	animation-play-state:running, running;
+	animation-timing-function:ease-in-out, linear;	
+}
+.pi-circle > svg
+{
+/*	border: solid 1px red;*/
+	border-radius:50%;
+	height:100%;
+	width:100%;
+}
+
+.pi-bar
+{
+/*	border: solid 1px var(--black-04);*/
+/*	border-radius: 10px;*/	
+	background-color:#EFF6FC;
+	width:100%;
+	height: auto;
+	background-repeat:no-repeat;
+	background-size: 50px auto;
+	background-position-x: 0;
+
+	opacity:0;
+
+	animation-name: AniProgBar_Indef_Fill, AniPageFadeIn1;
+	animation-direction:normal;
+	animation-fill-mode:forwards;
+	animation-play-state:running;
+	animation-timing-function:linear;
+	animation-delay: 0ms, 1000ms;
+	animation-duration:1000ms, 300ms;
+	animation-iteration-count:infinite, 1;
+}
+
+.pi-size-extra-large.pi-bar
+{
+	height:7px;
+}
+.pi-size-large.pi-bar
+{
+	height:5px;
+}
+.pi-size-medium.pi-bar
+{
+	height:3px;
+}
+.pi-size-small.pi-bar
+{
+	height: 2px;
+}
+
+/* colors */
+.pi-red
+{
+	background-image: linear-gradient(90deg, rgba(255,0,0,1) 0, rgba(255,0,0,1) 100%);
+	stroke: var(--nav-color-1);
+}
+.pi-orange
+{
+	background-image: linear-gradient(90deg, rgba(255, 128, 0, 1) 0,  rgba(255, 128, 0, 1) 100%);
+	stroke: rgba(255, 128, 0, 1);
+}
+.pi-yellow
+{
+	background-image: linear-gradient(90deg, rgba(255,255,0,1) 0,  rgba(255,255,0,1) 100%);
+	stroke: var(--nav-color-2);
+}
+.pi-green
+{
+	background-image: linear-gradient(90deg, rgba(0,128,0,1) 0,  rgba(0,128,0,1) 100%);
+	stroke: var(--nav-color-3);
+}
+.pi-blue
+{
+	background-image: linear-gradient(90deg, rgba(0,128,255,1) 0,  rgba(0,128,255,1) 100%);
+	stroke: var(--lapis);
+}
+.pi-purple
+{
+	background-image: linear-gradient(90deg, rgba(160,0,160,1) 0,  rgba(160,0,160,1) 100%);
+	stroke: rgba(160,0,160,1);
+}
+
+
+/* in order */
+@keyframes RotateProgressCircle {
+    0% {
+		transform: rotate(0deg);
+    }
+    100% {
+		transform: rotate(360deg);
+    }
+}
+
+@keyframes AniProgBar_Indef_Fill
+{
+	0% { 
+		background-position-x: 0;
+	}
+	50% { 
+		background-position-x: 100%;
+	}
+	100% { 
+		background-position-x: 0;
+	}
+}

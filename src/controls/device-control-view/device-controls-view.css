@@ -1,0 +1,133 @@
+﻿.device-rules-panel
+{
+/*	border: solid 1px red;*/
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.device-rules-svg
+{
+	/*	border: solid 1px rgba(0, 0, 0, 1);*/
+	background-color: rgba(222, 222, 222,1);
+	color: rgba(0,0,0,1);
+	height: 100%;
+	width: 100%;
+}
+
+.ctrl-connector
+{
+	fill: var(--q-amber);
+	stroke: var(--q-amber);
+	stroke-width: 0.2ex;
+}
+
+.marker-ctrl-connector
+{
+	fill: var(--q-amber);
+	stroke: var(--q-blackish);
+	stroke-width: 0.05ex;
+}
+
+
+.drr-ok
+{
+	fill:rgba(0, 255, 0, 0.02);
+	stroke: rgba(0, 255, 0, 1);
+	stroke-width: 0.1ex;
+}
+.drr-error
+{
+	fill:rgba(255, 0, 0, 0.02);
+	stroke: rgba(255, 0, 0, 1);
+	stroke-width: 0.1ex;
+	z-index:100;
+}
+.drr-info
+{
+	fill:rgba(64,64,255, 0.05);
+	stroke: rgba(64,64,255,1);
+	stroke-width: 0.2ex;
+}
+.drr-warn
+{
+	fill:rgba(255, 255, 0, 0.1);
+	stroke: rgba(255, 255, 0, 1);
+	stroke-width: 0.3ex;
+}
+
+.no-protocol
+{
+	fill:lime;
+	z-index:100;
+}
+.no-protocol-error
+{
+	fill:red;
+	z-index:100;
+}
+
+#debug-group-1 > *
+{
+	fill:rgba(32, 32, 32, 1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 0.1ex;
+}
+#debug-group-1 > text
+{
+	fill:rgba(255, 255, 255, 1);
+	stroke-width: 0px;
+}
+text.dbg-ctrl-info
+{
+	fill: rgba(255, 255, 0, 1);
+	font-size:20px;
+	stroke-width: 0px;
+}
+#debug-group-1 > circle.debug-red
+{
+	fill: red;
+}
+#debug-group-1 > circle.debug-green
+{
+	fill:rgba(0,255,0,1);
+	stroke: rgba(0,128,0,1);
+	stroke-width:0.1ex;
+}
+
+.d-text
+{
+	font-family:Arial;
+	fill: white;
+	font-size:3ex;
+	font-weight:100;
+	stroke:transparent;
+	stroke-width:0;
+	letter-spacing:0;
+}
+.d-text-24
+{
+	font-family: Arial;
+	fill: white;
+	font-size: 24px;
+	font-weight: 100;
+	stroke: transparent;
+	stroke-width: 0;
+	letter-spacing: 0;
+}
+
+/* OLD */
+/*.device-rule-default
+{
+	fill: rgba(255, 255, 255, 0.05);
+	stroke: rgba(255, 255, 255, 1);
+	stroke-width: 0.1ex;
+	filter: drop-shadow(0px 0px 4px black);
+	cursor: pointer;
+	transition: all 150ms ease-in-out;
+}
+
+.device-rule-default:hover
+{
+	fill:rgba(255, 255, 255, 0);
+}*/

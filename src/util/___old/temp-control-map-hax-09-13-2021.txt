@@ -1,0 +1,76 @@
+control,0,type,1,left,438,top,318,right,528,bottom,402,age,24,threshold,0.795053,score,0.53294,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,TRUE,isTriggered,FALSE,notifications,1,link,1\n
+control,1,type,1,left,1307,top,362,right,1389,bottom,436,age,0,threshold,0.84274,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n
+control,2,type,1,left,412,top,23,right,550,bottom,101,age,24,threshold,0.795053,score,0.630403,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,TRUE,isTriggered,FALSE,notifications,1,link,3\n
+control,3,type,1,left,1254,top,50,right,1334,bottom,124,age,0,threshold,0.84274,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,notifications,0\n
+
+
+
+control,0,type,1,left,440,top,480,right,520,bottom,560,age,188,threshold,0.65,score,0.0962402,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,TRUE,isTriggered,FALSE,notifications,2,link,1,link,1
+control,1,type,6,left,920,top,540,right,1000,bottom,620,age,188,threshold,0.96,score,0,confidence,0,startActivated,FALSE,controlsLights,TRUE,isReset,TRUE,isActivated,FALSE,isTriggered,FALSE,voteRule,MINORITY,yesCount,0,noCount,2,notifications,0
+
+
+
+
+0: 750
+1: 477
+2: 244
+3: 266
+
+"control,0,type,1,left,750,top,477,right,994,bottom,743,age,2476,threshold,0.301317,score,0.606123,confidence,0,startActivated,TRUE,controlsLights,FALSE,isReset,TRUE,isActivated,TRUE,isTriggered,TRUE,notifications,1,link,1
+"
+
+
+									<text
+										x={ item.rect[ 0 ] }
+										y={ item.rect[ 1 ] }
+										dx="8"
+										dy="24"
+										textAnchor="start"
+										alignmentBaseline="top"
+										className="d-text"
+										filter='url(#qai-text-shadow-small)'
+									>name: { item.name }</text>
+
+									<text
+										x={ item.rect[ 0 ] }
+										y={ item.rect[ 1 ] }
+										dx="8"
+										dy={ item.rect[ 3 ] -10 }
+										textAnchor="start"
+										alignmentBaseline="top"
+										className="d-text"
+										filter='url(#qai-text-shadow-small)'
+									>L: { item.rect[ 0 ]  }</text>
+
+									<text
+										x={ item.rect[ 0 ] }
+										y={ item.rect[ 1 ] }
+										dx="8"
+										dy="-10"
+										textAnchor="start"
+										alignmentBaseline="top"
+										className="d-text"
+										filter='url(#qai-text-shadow-small)'
+									>T: { item.rect[ 1 ] }</text>
+
+									<text
+										x={ parseInt(item.rect[ 0 ]) + parseInt(item.rect[2]) }
+										y={ item.rect[ 1 ] }
+										dx="0"
+										dy="-10"
+										textAnchor="start"
+										alignmentBaseline="top"
+										className="d-text"
+										filter='url(#qai-text-shadow-small)'
+									>W: { item.rect[ 2 ] }</text>
+
+									<text
+										x={ parseInt(item.rect[ 0 ]) + parseInt(item.rect[ 2 ]) }
+										y={ parseInt(item.rect[ 1 ]) + parseInt(item.rect[ 3 ]) }
+										dx="10"
+										dy="-4"
+										textAnchor="start"
+										alignmentBaseline="top"
+										className="d-text"
+										filter='url(#qai-text-shadow-small)'
+									>H: { item.rect[ 3 ] }</text>
