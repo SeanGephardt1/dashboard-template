@@ -23,7 +23,7 @@ export default class FourOhFourPage extends React.Component
 	{
 		return (
 			<div className="four-page">
-				<div className="four-header">{ SvgData.Objects.QuivrTextLogo }</div>
+				<div className="four-header">{ SvgData.Objects.dbtempTextLogo }</div>
 				<div className="four-title">{ this.LinkTitle }</div>
 			</div>
         );

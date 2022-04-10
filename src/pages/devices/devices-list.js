@@ -62,7 +62,7 @@ export default class DevicesListPage extends React.Component
 				} )
 				.catch( ( error ) =>
 				{
-					console.error( "There is an error when starting the QUIVR.AI Device Discovery process.", error );
+					console.error( "There is an error when starting the dbtemp.AI Device Discovery process.", error );
 					this.context.apiDiscoveryStartRan = false;
 					this.setState( { isLoading: false } );
 					return;
@@ -88,7 +88,7 @@ export default class DevicesListPage extends React.Component
 			} )
 			.catch( ( error ) =>
 			{
-				console.error( "There is an error with the QUIVR.AI SERVICE API.", error );
+				console.error( "There is an error with the dbtemp.AI SERVICE API.", error );
 				return;
 			} );
 		return;
@@ -115,7 +115,7 @@ export default class DevicesListPage extends React.Component
 			} )
 			.catch( ( error ) =>
 			{
-				console.error( "There is an error when starting the QUIVR.AI Get Network Devices call.", error );
+				console.error( "There is an error when starting the dbtemp.AI Get Network Devices call.", error );
 				this.setState( { isLoadingNetworkDevices: false } );
 				return;
 			} );
@@ -216,7 +216,7 @@ export default class DevicesListPage extends React.Component
 			} )
 			.catch( ( error ) =>
 			{
-				console.error( "There is an error when starting the QUIVR.AI Get Managed Devices call.", error );
+				console.error( "There is an error when starting the dbtemp.AI Get Managed Devices call.", error );
 
 				const _fetch_get_managed_devices_event = {
 					type: 'API ROUTE ERROR',
@@ -570,7 +570,7 @@ export default class DevicesListPage extends React.Component
 				} )
 				.catch( ( error ) =>
 				{
-					console.error( "There is an error with the QUIVR.AI Service", error );
+					console.error( "There is an error with the dbtemp.AI Service", error );
 					return;
 				} );
 
@@ -584,7 +584,7 @@ export default class DevicesListPage extends React.Component
 				} )
 				.catch( ( error ) =>
 				{
-					console.error( "There is an error with the QUIVR.AI Service", error );
+					console.error( "There is an error with the dbtemp.AI Service", error );
 					return;
 				} );
 
@@ -602,7 +602,7 @@ export default class DevicesListPage extends React.Component
 				} )
 				.catch( ( error ) =>
 				{
-					console.error( "There is an error when starting the QUIVR.AI Get Devices call.", error );
+					console.error( "There is an error when starting the dbtemp.AI Get Devices call.", error );
 					return;
 				} );
 
@@ -616,7 +616,7 @@ export default class DevicesListPage extends React.Component
 				} )
 				.catch( ( error ) =>
 				{
-					console.error( "There is an error when pairing the QUIVR.AI Get Devices call.", error );
+					console.error( "There is an error when pairing the dbtemp.AI Get Devices call.", error );
 					return;
 				} );
 
@@ -627,8 +627,8 @@ export default class DevicesListPage extends React.Component
 		return;
 	};
 
-	OnClick_QuivrDevicesSelectTab ( idx, item, ev )
-	{   //  console.debug( "OnClick_QuivrDevicesSelectTab", idx, item );
+	OnClick_dbtempDevicesSelectTab ( idx, item, ev )
+	{   //  console.debug( "OnClick_dbtempDevicesSelectTab", idx, item );
 		const _current_object = ( idx === -1 ) ? -1 : 0;
 
 		//if ( process.env.NODE_ENV === "development" )
@@ -742,8 +742,8 @@ export default class DevicesListPage extends React.Component
 										className={
 											this.state.devicesTabSelected === -1 ? "qai-zone-icon-btn qai-zone-icon-btn-selected" : "qai-zone-icon-btn"
 										}
-										onClick={ this.OnClick_QuivrDevicesSelectTab.bind( this, -1, -1 ) }
-										onKeyPress={ this.OnClick_QuivrDevicesSelectTab.bind( this, -1, -1 ) }>
+										onClick={ this.OnClick_dbtempDevicesSelectTab.bind( this, -1, -1 ) }
+										onKeyPress={ this.OnClick_dbtempDevicesSelectTab.bind( this, -1, -1 ) }>
 										<div className="qai-zone-icon-btn-img">
 											<div className="qai-zone-icon-btn-img-col"></div>
 											<div className="qai-zone-icon-btn-svg">{ Svgs.Icons.QServiceDevice }</div>
@@ -776,8 +776,8 @@ export default class DevicesListPage extends React.Component
 														className={ this.state.devicesTabSelected === idx ?
 															"qai-zone-icon-btn qai-zone-icon-btn-selected" :
 															"qai-zone-icon-btn" }
-														onClick={ this.OnClick_QuivrDevicesSelectTab.bind( this, idx, item ) }
-														onKeyPress={ this.OnClick_QuivrDevicesSelectTab.bind( this, idx, item ) }>
+														onClick={ this.OnClick_dbtempDevicesSelectTab.bind( this, idx, item ) }
+														onKeyPress={ this.OnClick_dbtempDevicesSelectTab.bind( this, idx, item ) }>
 														<div className="qai-zone-icon-btn-img">
 															<div className="qai-zone-icon-btn-img-col">
 																{

@@ -13,7 +13,7 @@ export default class DashboardWebApp extends React.Component
     static defaultProps = {
         BuildNumber: packageJson.version,
         Description: packageJson.description,
-        Application: "QUIVR.AI Dashboard",
+        Application: "Dashboard",
         StorageKeys: {
             IsAuthenticated: "qai-auth",
             Token: "qai-token",

@@ -58,9 +58,9 @@ export default class ShellNavigation extends React.Component
 						className="shell-account-ctrl"
 						defaultValue={ this.state.accountSelected }
 						onChange={ this.OnChange_AccountSelection.bind( this ) }>
-						<option value="1">Account: QUIVR STAGING 001</option>
-						<option value="2">Account: QUIVR TESTING 002</option>
-						<option value="3">Account: QUIVR PRODUCTION 003</option>
+						<option value="1">Account: dbtemp STAGING 001</option>
+						<option value="2">Account: dbtemp TESTING 002</option>
+						<option value="3">Account: dbtemp PRODUCTION 003</option>
 					</select>
 				</div>
 				<div>

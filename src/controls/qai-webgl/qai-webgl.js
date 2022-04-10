@@ -662,7 +662,7 @@ export default class QaiWebGLControl extends React.Component
             _self.WGL.enable( _self.WGL.DEPTH_TEST );
             _self.WGL.depthFunc( _self.WGL.LEQUAL );
 
-            //   QUIVR PURPLE/GRAY
+            //   dbtemp PURPLE/GRAY
             _self.WGL.clearColor( 0.36, 0.36, 0.36, 1 );
             _self.WGL.clearDepth( 1 );
 

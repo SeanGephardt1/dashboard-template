@@ -357,7 +357,7 @@ export default class DeviceControlsView extends React.Component
 								textAnchor="start"
 								alignmentBaseline="top"
 								filter='url(#shadow3)'
-							>&copy; 2021 QUIVR.AI</text>
+							>&copy; 2021 dbtemp.AI</text>
 						</g>
 					}
 

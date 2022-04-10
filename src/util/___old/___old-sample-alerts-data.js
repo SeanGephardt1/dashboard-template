@@ -24,7 +24,7 @@ const ReportTypes = {
 const _reporting_data = [
     {
         id: "0381FC7C",
-        quivr_guid: "0381FC7C-ABB9-41B4-980F-36043B59A989",
+        dbtemp_guid: "0381FC7C-ABB9-41B4-980F-36043B59A989",
         ex_sys_id: "89C77627-1759-48F4-B117-4A0E78502487",
         timestamp: new Date(),
         report_type: ReportTypes.Movement,
@@ -32,7 +32,7 @@ const _reporting_data = [
         severity: "Minor",
         assigned_to: "Unassigned", 
         deviation_type: "Alignment issue",
-        description: "QUIVR has detected part # abc-13579 is misaligned. ",
+        description: "dbtemp has detected part # abc-13579 is misaligned. ",
         base_image: TestPicture2,
         location: [
             "BODY SHOP 2",
@@ -98,7 +98,7 @@ const _reporting_data = [
     },
     {
         id: "89C77627",
-        quivr_guid: "1381FC7C-ABB9-41B4-980F-36043B59A989",
+        dbtemp_guid: "1381FC7C-ABB9-41B4-980F-36043B59A989",
         ex_sys_id: "C32EE225-D3CA-451F-9233-3D7C96956007",
         timestamp: new Date(),
         report_type: ReportTypes.Movement,
@@ -106,7 +106,7 @@ const _reporting_data = [
         severity: "Major",
         assigned_to: "Unassigned",
         deviation_type: "Alignment issue",
-        description: "QUIVR has detected part # abc-13579 is misaligned. ",
+        description: "dbtemp has detected part # abc-13579 is misaligned. ",
         base_image: TestPicture2,
         location: [
             "BODY SHOP 2",
@@ -173,7 +173,7 @@ const _reporting_data = [
     },
     {
         id: "2381FC7C",
-        quivr_guid: "2381FC7C-ABB9-41B4-980F-36043B59A989",
+        dbtemp_guid: "2381FC7C-ABB9-41B4-980F-36043B59A989",
         ex_sys_id: "E2007059-BA08-476A-A47B-A6AB718ED325",
         timestamp: new Date(),
         report_type: ReportTypes.Movement,
@@ -181,7 +181,7 @@ const _reporting_data = [
         severity: "Major",
         assigned_to: "Unassigned",
         deviation_type: "Alignment issue",
-        description: "QUIVR has detected part # abc-13579 is misaligned. ",
+        description: "dbtemp has detected part # abc-13579 is misaligned. ",
         base_image: TestPicture2,
         location: [
             "BODY SHOP 2",
@@ -245,7 +245,7 @@ const _reporting_data = [
     },
     {
         id: "9381FC7D",
-        quivr_guid: "2381FC7C-ABB9-41B4-980F-36043B59A989",
+        dbtemp_guid: "2381FC7C-ABB9-41B4-980F-36043B59A989",
         ex_sys_id: "BD381A25-848F-42B0-883F-15FA00E05C73",
         timestamp: new Date(),
         report_type: ReportTypes.Movement,
@@ -253,7 +253,7 @@ const _reporting_data = [
         severity: "Minor",
         assigned_to: "Unassigned",
         deviation_type: "Alignment issue",
-        description: "QUIVR has detected part # abc-13579 is misaligned. ",
+        description: "dbtemp has detected part # abc-13579 is misaligned. ",
         base_image: TestPicture2,
         location: [
             "BODY SHOP 2",

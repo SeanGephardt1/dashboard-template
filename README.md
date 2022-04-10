@@ -1,5 +1,7 @@
 # DASHBOARD TEMPLATE
 
+## CURRENTLY BEING REFACTORED FOR LIBRARY DEPENDENCY UPDATES
+
 ### Build
 The instructions below are for a local development build, and includes the instructions on how to build this project/repo for deployment to testing & external hosting envirnments. Any future testing parameters will be documented in these instructions.
 

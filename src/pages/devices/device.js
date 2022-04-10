@@ -53,7 +53,7 @@ export default class DevicePage extends React.Component
         this._device_id = _id;
         this._id_text = DevicePage.defaultProps.Title + " ID: " + this._device_id;
         //  console.debug( "this._id_text", this._id_text );
-        document.title = ( this._id_text ) ? this._id_text : "QUIVR Device page";
+        document.title = ( this._id_text ) ? this._id_text : "dbtemp Device page";
 
         this.setState( { isLoading: false } );
         return;

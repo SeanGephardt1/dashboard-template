@@ -150,7 +150,7 @@ class QvisionContextPanel extends React.Component
                     <div className="details-list-entry">
                         <div>Device friendly name</div>
                         <div>
-                            { this.props.data.name === undefined && 'QUIVR Vision Sensor' }
+                            { this.props.data.name === undefined && 'dbtemp Vision Sensor' }
                             { this.props.data.name !== undefined && this.props.data.name }
                         </div>
                     </div>

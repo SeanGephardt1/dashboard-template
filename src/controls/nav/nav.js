@@ -50,17 +50,17 @@ export default class SiteNavigation extends React.Component
 					<div
 						tabIndex="0"
 						className='q-brand'
-						title="QUIVR.AI Dashboard"
+						title="dbtemp.AI Dashboard"
 						onClick={ this.OnClick_ToggleNavBar.bind( this ) }
 						onKeyPress={ this.OnClick_ToggleNavBar.bind( this ) }
 					>
 						{
 							this.state.isOpen === true &&
-							<span className="q-brand-text">{ Svgs.Icons.QuivrTextLogo }</span>
+							<span className="q-brand-text">{ Svgs.Icons.dbtempTextLogo }</span>
 						}
 						{
 							this.state.isOpen !== true &&
-							<span className="q-brand-text-closed">{ Svgs.Icons.QuivrQ }</span>
+							<span className="q-brand-text-closed">{ Svgs.Icons.dbtempQ }</span>
 						}
 					</div>
 
@@ -112,7 +112,7 @@ export default class SiteNavigation extends React.Component
 
 					{/*<QaiWebGLControl />*/}
 
-					<div className="nav-build-number">QUIVR.AI BUILD: { process.env.NODE_ENV } { process.env.REACT_APP_BUILD }</div>
+					<div className="nav-build-number">BUILD: { process.env.NODE_ENV } { process.env.REACT_APP_BUILD }</div>
 
 					{ /* SIGN OUT */ }
 					{/*<a*/}
@@ -120,7 +120,7 @@ export default class SiteNavigation extends React.Component
 					{/*	className="left-nav"*/}
 					{/*	href="/"*/}
 					{/*	target="_new"*/}
-					{/*	title="QUIVR.AI"*/}
+					{/*	title="dbtemp.AI"*/}
 					{/*	onClick={ this.context.SignOut.bind( this, this.context ) }>*/}
 					{/*	<>*/}
 					{/*		<span className="left-nav-icon">{ Svgs.Icons.SignOut }</span>*/}

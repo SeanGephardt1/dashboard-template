@@ -1,11 +1,11 @@
 // basic "hub" configuration, mapped to "/configuration"
 const _server_config_schema = {
 	guid: "E09A360C-C143-4E63-B3C5-E5EBDC85CB38",
-	name: "quivr-trident-hub-0001",
+	name: "dbtemp-trident-hub-0001",
 	last_start_date: 1234567890,
 	configuration:
 	{
-		server_version: "quivr-trident-server-01",
+		server_version: "dbtemp-trident-server-01",
 		defaultGateway: "fe80::10:18ff:fe45:c7ef::11",
 		mac_address: "3C-9C-0F-09-33-83",
 		ipv4: "100.100.100.1",
@@ -19,20 +19,20 @@ const _server_config_schema = {
 			password: "system"
 		},
 		applications: {
-			install_location: "//quivr-server/web-app/host",
+			install_location: "//dbtemp-server/web-app/host",
 			app_host: "node-x-server.exe",
-			app_location: "//quivr-server/web-app/app",
+			app_location: "//dbtemp-server/web-app/app",
 			app_uri: "https://100.100.100.1:80",
-			api_location: "//quivr-server/web-app/api",
+			api_location: "//dbtemp-server/web-app/api",
 			api_uri: "https://100.100.100.1:81",
 		}
 	},
 	paths: {
-		firmware: "//quivr-server/firmware/[version]/",
-		reports: "//quivr-server/reporting/",
-		archive: "//quivr-server/archive/",
-		devices: "//quivr-server/devices/",
-		logging: "//quivr-server/logging/"
+		firmware: "//dbtemp-server/firmware/[version]/",
+		reports: "//dbtemp-server/reporting/",
+		archive: "//dbtemp-server/archive/",
+		devices: "//dbtemp-server/devices/",
+		logging: "//dbtemp-server/logging/"
 	},
 	devices: [
 		"12931AD7-D197-4749-A53E-DCD900EA3AF3",
@@ -63,12 +63,12 @@ const _device_schema =
 	online_status: true,
 	last_reboot_date: 1234567890,
 	current_hub: "E09A360C-C143-4E63-B3C5-E5EBDC85CB38",
-	archive_data_location: "//quivr-server/trident/devices/[device-id]/[year]/[month]/[day]/data",
-	archive_image_location: "//quivr-server/trident/devices/[device-id]/[year]/[month]/[day]/images",
+	archive_data_location: "//dbtemp-server/trident/devices/[device-id]/[year]/[month]/[day]/data",
+	archive_image_location: "//dbtemp-server/trident/devices/[device-id]/[year]/[month]/[day]/images",
 	diagnostic: {
 		//	"install_date" firmware install date
-		//	"firmware_version" QUIVR Firmware version
-		//	"ruleset_engine" QUIVR Rules engine version
+		//	"firmware_version" dbtemp Firmware version
+		//	"ruleset_engine" dbtemp Rules engine version
 		//	"rules" General rules based on 2d coordinate system, x,y location and h,w dimensions based on camera resolutions
 		//	this is a source of techincal challenge, transforming on-device coordinate data with UI coordinate data 
 		//  "hardware specific data" TBD: information related to internal hardware quality
@@ -173,7 +173,7 @@ const _connector_schema = {
 		name: "GE Factory CMMS",
 		type: "CMSS", // "HMI", "PLC", "OTHER"
 		credentials: {
-			account: "quivr-hub-001-account",
+			account: "dbtemp-hub-001-account",
 			password: "9bI*9eGpxbdW",
 			pin: "12345678"
 		},
@@ -236,7 +236,7 @@ const _notifications_schema = {
 	device_guid: "12931AD7-D197-4749-A53E-DCD900EA3AF3",
 	device_location: "Building 4, Floor 3, Area 14C",
 	text: "Rule #14 is out of compliance by 15%",
-	attachment: "//quivr/trident/reporting/[device-guid]/[date-time-stamp]/[file-path.jpg]", // base 64?
+	attachment: "//dbtemp/trident/reporting/[device-guid]/[date-time-stamp]/[file-path.jpg]", // base 64?
 };
 const _notifications_list_schema = [
 	{
@@ -247,7 +247,7 @@ const _notifications_list_schema = [
 		device_guid: "12931AD7-D197-4749-A53E-DCD900EA3AF3",
 		device_location: "Building 4, Floor 3, Area 14C",
 		text: "Rule #14 is out of compliance by 15%",
-		attachment: "//quivr/trident/reporting/[device-guid]/[date-time-stamp]/[file-path.jpg]"
+		attachment: "//dbtemp/trident/reporting/[device-guid]/[date-time-stamp]/[file-path.jpg]"
 	}
 ];
 

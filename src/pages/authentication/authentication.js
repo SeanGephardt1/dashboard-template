@@ -8,7 +8,7 @@ export default class AuthenticationPage extends React.Component
 {
 	static contextType = DashboardContext;
 	static defaultProps = {
-		Title: "QUIVR.AI Sign in",
+		Title: "dbtemp.AI Sign in",
 		LinkTitle: "Sign in",
 		Href: "/sign-in",
 		Icon: ""
@@ -136,7 +136,7 @@ export default class AuthenticationPage extends React.Component
 		return (
 			<div className="signin-background">
 				<form onSubmit={ this.onSubmit_Authenticate.bind( this ) }>
-					<div className="quivr-brand-logo">{ SvgData.Objects.QuivrTextLogo }</div>
+					<div className="dbtemp-brand-logo">{ SvgData.Objects.dbtempTextLogo }</div>
 					<div className="sign-in-header">Sign in</div>
 					<div className="sign-in-text">User name</div>
 					<div className="sign-in-element">
@@ -177,7 +177,7 @@ export default class AuthenticationPage extends React.Component
 					</div>
 
 					<div className="sign-in-copy">
-						<a href="https://quivr.ai/" title="QUIVR.AI" tabIndex="0">&reg;&trade;&copy; 2021 QUIVR.AI</a>
+						<a href="https://dbtemp.ai/" title="dbtemp.AI" tabIndex="0">&reg;&trade;&copy; 2021 dbtemp.AI</a>
 					</div>
 
 				</form>

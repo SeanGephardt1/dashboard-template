@@ -20,7 +20,7 @@
 		transform: rotate3d(0, 1, 0, 180deg);
 	}
 }
-@keyframes AnimateQuivrAiDeviceEye
+@keyframes AnimatedbtempAiDeviceEye
 {
 	0%, 100%
 	{
@@ -31,7 +31,7 @@
 		cx: 48;
 	}
 }
-@keyframes AnimateQuivrAiSensorLens
+@keyframes AnimatedbtempAiSensorLens
 {
 	0%, 100%
 	{

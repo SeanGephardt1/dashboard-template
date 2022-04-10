@@ -11,8 +11,8 @@ export default class WebGlFluidSimTestPage extends React.Component
 {
     static contextType = DashboardContext;
     static defaultProps = {
-        Title: "QUIVR WebGL",
-        LinkTitle: "QUIVR WebGL",
+        Title: "dbtemp WebGL",
+        LinkTitle: "dbtemp WebGL",
         Href: "/qai-wgl",
         Icon: Svgs.Icons.Support
     };

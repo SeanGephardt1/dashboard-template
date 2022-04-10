@@ -21,7 +21,7 @@ export
 
 //	LAST UPDATED 10/27/2021
 
-//	https://quivrai.sharepoint.com/sites/Development/_layouts/15/Doc.aspx?OR=teams&action=edit&sourcedoc={736AF73C-423B-4D5A-AC1B-CFF501DFAFAD}
+//	https://dbtempai.sharepoint.com/sites/Development/_layouts/15/Doc.aspx?OR=teams&action=edit&sourcedoc={736AF73C-423B-4D5A-AC1B-CFF501DFAFAD}
 
 //[ 2: 28 PM ] John Pella
 //enum class QCONTROLTYPE

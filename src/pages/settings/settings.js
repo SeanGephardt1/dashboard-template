@@ -35,7 +35,7 @@ export default class SettingsPage extends React.Component
             } )
             .catch( ( error ) =>
             {
-                console.error( "There is an error with the QUIVR.AI SERVICE API.", error );
+                console.error( "There is an error with the dbtemp.AI SERVICE API.", error );
                 this.setState( { isLoading: false } );
                 return;
             } );

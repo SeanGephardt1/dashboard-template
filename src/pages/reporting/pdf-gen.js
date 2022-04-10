@@ -13,9 +13,9 @@ export default class PdfGenerator
         //  console.debug( '_pdf_file_name', _pdf_file_name );
 
         const _doc_props = {
-            name: "QUIVR.AI Incident Report " + new Date().toLocaleString(),
-            "QUIVR.AI Customer": "Valued Customer",
-            creator: "QUIVR.AI Copyright 2021",
+            name: "dbtemp.AI Incident Report " + new Date().toLocaleString(),
+            "dbtemp.AI Customer": "Valued Customer",
+            creator: "dbtemp.AI Copyright 2021",
             title: _pdf_file_name
         };
         //  console.debug( '_doc_props', _doc_props );
@@ -29,7 +29,7 @@ export default class PdfGenerator
         doc.setFontSize( 14 );
 
         // FORMAT DOCUMENT
-        doc.text( "QUIVR.AI Incident Report: " + d.id, 5, 8 );
+        doc.text( "dbtemp.AI Incident Report: " + d.id, 5, 8 );
 
         //  API - addImage(imageData, format, x, y, width, height, alias, compression, rotation);
         doc.addImage( d.imagePaths[ 0 ], "JPEG", 5, 10, 200, 120, "base-detection-image", "FAST", 0 );

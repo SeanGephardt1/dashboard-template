@@ -115,7 +115,7 @@ export default class ReportsListPage extends React.Component
             } )
             .catch( ( error ) =>
             {
-                console.error( "There is an error with the QUIVR.AI API.", error );
+                console.error( "There is an error with the dbtemp.AI API.", error );
 
                 this.setState( {
                     isLoading: false,

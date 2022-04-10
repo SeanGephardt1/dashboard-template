@@ -45,7 +45,7 @@ export default class ReportPage extends React.Component
         this._id_text = ReportPage.defaultProps.Title + ": " + this._device_id;
         //  console.debug( "this._id_text", this._id_text );
 
-        document.title = ( this._id_text ) ? this._id_text : "QUIVR Reports page";
+        document.title = ( this._id_text ) ? this._id_text : "dbtemp Reports page";
         return;
     };
 
@@ -90,7 +90,7 @@ export default class ReportPage extends React.Component
             } )
             .catch( ( error ) =>
             {
-                console.error( "There is an error when retrieving the list of reports from the QUIVR.AI QAI Reporting Service.", error );
+                console.error( "There is an error when retrieving the list of reports from the dbtemp.AI QAI Reporting Service.", error );
                 return;
             } );
         return;
@@ -100,7 +100,7 @@ export default class ReportPage extends React.Component
     onClick_MailTo( ev )
     {   //  console.debug( "onClick_MailTo" );
         var mail = document.createElement( "a" );
-        mail.href = "mailto:?subject=QUIVR.AI Error Report " + this._device_id + "&body=" + window.location + "%0D%0D";
+        mail.href = "mailto:?subject=dbtemp.AI Error Report " + this._device_id + "&body=" + window.location + "%0D%0D";
         mail.click();
         return;
     };

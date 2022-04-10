@@ -286,7 +286,7 @@
 	animation-duration: 5s;
 	animation-fill-mode: both;
 	animation-iteration-count: infinite;
-	animation-name: AnimateQuivrAiDeviceEye;
+	animation-name: AnimatedbtempAiDeviceEye;
 	animation-play-state: running;
 	animation-timing-function: ease-in-out;
 }
@@ -340,7 +340,7 @@
 	animation-duration: 2s;
 	animation-fill-mode: both;
 	animation-iteration-count: infinite;
-	animation-name: AnimateQuivrAiSensorLens;
+	animation-name: AnimatedbtempAiSensorLens;
 	animation-play-state: running;
 	animation-timing-function: ease-in-out;
 }

@@ -130,7 +130,7 @@ export default class DeviceRulesControl extends React.Component
 								fontSize="24px"
 								letterSpacing="0px"
 								textAnchor="start"
-								alignmentBaseline="top">&copy; 2021 QUIVR.AI</text>
+								alignmentBaseline="top">&copy; 2021 dbtemp.AI</text>
 						</g>
 					}
 				</svg>

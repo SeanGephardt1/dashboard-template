@@ -70,12 +70,12 @@ export default class ProtocolsListPage extends React.Component
         //    } )
         //    .catch( ( error ) =>
         //    {
-        //        console.error( "There is an error when retrieving the list of projects from the QUIVR.AI QAI Protocols Service.", error );
+        //        console.error( "There is an error when retrieving the list of projects from the dbtemp.AI QAI Protocols Service.", error );
 
         //        this.setState( {
         //            isLoading: false,
         //            projectsListApiException: true,
-        //            projectsListApiMessage: "There is an error message when retrieving the list of projects from the QUIVR.AI QAI Protocol Service.",
+        //            projectsListApiMessage: "There is an error message when retrieving the list of projects from the dbtemp.AI QAI Protocol Service.",
         //        } );
 
         //        return;
@@ -118,10 +118,10 @@ export default class ProtocolsListPage extends React.Component
                                 this.state.projectsListApiException === true &&
                                 <>
                                     <div className="qai-page-notification qpn-error">{ this.state.projectsListApiMessage }</div>
-                                    <div className="qai-page-notification qpn-warning">There is an warning message when retrieving the list of projects from the QUIVR.AI QAI Reporting Service.</div>
-                                    <div className="qai-page-notification qpn-alert">There is an alert message when retrieving the list of projects from the QUIVR.AI QAI Reporting Service.</div>
-                                    <div className="qai-page-notification qpn-info">There is an informational message when retrieving the list of projects from the QUIVR.AI QAI Reporting Service.</div>
-                                    <div className="qai-page-notification qpn-success">There is an success message when retrieving the list of projects from the QUIVR.AI QAI Reporting Service.</div>
+                                    <div className="qai-page-notification qpn-warning">There is an warning message when retrieving the list of projects from the dbtemp.AI QAI Reporting Service.</div>
+                                    <div className="qai-page-notification qpn-alert">There is an alert message when retrieving the list of projects from the dbtemp.AI QAI Reporting Service.</div>
+                                    <div className="qai-page-notification qpn-info">There is an informational message when retrieving the list of projects from the dbtemp.AI QAI Reporting Service.</div>
+                                    <div className="qai-page-notification qpn-success">There is an success message when retrieving the list of projects from the dbtemp.AI QAI Reporting Service.</div>
                                 </>
                             }
                             {

@@ -19,13 +19,13 @@
     min-width: 300px;
 }
 
-.quivr-device
+.dbtemp-device
 {
 /*    border: solid 1px white;*/
     text-align: left;
     align-items: flex-start;
 }
-.quivr-device > svg
+.dbtemp-device > svg
 {
 /*    border: solid 1px red;*/
     width:110px;
@@ -33,7 +33,7 @@
     margin-bottom:10px;
 }
 
-.quivr-brand-logo
+.dbtemp-brand-logo
 {
 /*    border: solid 1px white;*/
     margin-bottom: 20px;

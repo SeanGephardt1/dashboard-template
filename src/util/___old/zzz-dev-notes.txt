@@ -70,7 +70,7 @@ control,1,type,1,left,920,top,540,right,1000,bottom,620,age,0,threshold,0.65,sco
         //    } )
         //    .catch( ( error ) =>
         //    {
-        //        console.error( "There is an error when starting the QUIVR.AI Get Devices call.", error );
+        //        console.error( "There is an error when starting the dbtemp.AI Get Devices call.", error );
         //        return;
         //    } );
 
@@ -80,17 +80,17 @@ control,1,type,1,left,920,top,540,right,1000,bottom,620,age,0,threshold,0.65,sco
         //    {   //  console.debug( "START-DISCOVERY.RESPONSE", response );
         //        if ( response.status !== 200 )
         //        {
-        //            throw new Error( "The QUIVR.AI Start Discovery call returned a status of " + response.status );
+        //            throw new Error( "The dbtemp.AI Start Discovery call returned a status of " + response.status );
         //        }
         //        else if ( response.ok !== true )
         //        {
-        //            throw new Error( "The QUIVR.AI Start Discovery call returned an 'ok' status of " + response.ok );
+        //            throw new Error( "The dbtemp.AI Start Discovery call returned an 'ok' status of " + response.ok );
         //        }
         //        return;
         //    } )
         //    .catch( ( error ) =>
         //    {
-        //        console.error( "There is an error when starting the QUIVR.AI Device Discovery process.", error );
+        //        console.error( "There is an error when starting the dbtemp.AI Device Discovery process.", error );
         //        return;
         //    } );
 
@@ -104,7 +104,7 @@ control,1,type,1,left,920,top,540,right,1000,bottom,620,age,0,threshold,0.65,sco
         //    } )
         //    .catch( ( error ) =>
         //    {
-        //        console.error( "There is an error when starting the QUIVR.AI Get Devices call.", error );
+        //        console.error( "There is an error when starting the dbtemp.AI Get Devices call.", error );
         //        return;
         //    } );
 
@@ -134,7 +134,7 @@ control,1,type,1,left,920,top,540,right,1000,bottom,620,age,0,threshold,0.65,sco
         //    } )
         //    .catch( ( error ) =>
         //    {
-        //        console.error( "There is an error when starting the QUIVR.AI Get Devices call.", error );
+        //        console.error( "There is an error when starting the dbtemp.AI Get Devices call.", error );
         //        return;
         //    } );
 
@@ -144,17 +144,17 @@ control,1,type,1,left,920,top,540,right,1000,bottom,620,age,0,threshold,0.65,sco
         //    {   //  console.debug( "STOP-DISCOVERY.RESPONSE", response );
         //        if ( response.status !== 200 )
         //        {
-        //            throw new Error( "The QUIVR.AI Stop Discovery call returned a status of " + response.status );
+        //            throw new Error( "The dbtemp.AI Stop Discovery call returned a status of " + response.status );
         //        }
         //        else if ( response.ok !== true )
         //        {
-        //            throw new Error( "The QUIVR.AI Stop Discovery call returned an 'ok' status of " + response.ok );
+        //            throw new Error( "The dbtemp.AI Stop Discovery call returned an 'ok' status of " + response.ok );
         //        }
         //        return;
         //    } )
         //    .catch( ( error ) =>
         //    {
-        //        console.error( "There is an error when stopping the QUIVR.AI Device Discovery process.", error );
+        //        console.error( "There is an error when stopping the dbtemp.AI Device Discovery process.", error );
         //        return;
         //    } );
 
@@ -171,7 +171,7 @@ control,1,type,1,left,920,top,540,right,1000,bottom,620,age,0,threshold,0.65,sco
         //                .then( response => response.text() )
         //                .catch( ( error ) =>
         //                {
-        //                    console.error( "There is an error when starting the QUIVR.AI Get Devices call.", error );
+        //                    console.error( "There is an error when starting the dbtemp.AI Get Devices call.", error );
         //                    return;
         //                } );
         //        }
